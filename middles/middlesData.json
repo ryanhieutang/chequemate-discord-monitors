@@ -1,0 +1,387 @@
+[
+  {
+    "id": "middle:16341-12806-24-42:1st_quarter_total_points:over_0_5:under_2_5",
+    "bet_id": "middle:16341-12806-24-42:1st_quarter_total_points:over_0_5:under_2_5",
+    "game_id": "16341-12806-24-42",
+    "distance": 2,
+    "bets": [
+      {
+        "bet_name": "Over 0.5",
+        "bet_points": "0.5",
+        "no_vig_price": null,
+        "price": -650,
+        "sportsbooks": [
+          "bet365"
+        ],
+        "deep_link_map": {
+          "bet365": {
+            "mobile": "com.bet365.bet365NJ://dl/sportsbookredirect",
+            "desktop": "https://www.bet365.com.au/#/AC/B12/C20426855/D19/E20860426/F19/I5/",
+            "urls": {
+              "desktop": {
+                "url": "https://www.bet365.com.au/#/AC/B12/C20426855/D19/E20860426/F19/I5/",
+                "adds_to_slip": false
+              },
+              "ios": {
+                "url": "com.bet365.bet365NJ://dl/sportsbookredirect",
+                "adds_to_slip": false
+              },
+              "android": {
+                "url": "com.bet365.bet365NJ://dl/sportsbookredirect",
+                "adds_to_slip": false
+              }
+            }
+          }
+        },
+        "pinny_no_vig_price": null,
+        "dangerous_text": null,
+        "edge_percent": null,
+        "price_boosted": null,
+        "rec_size": null,
+        "order": null
+      },
+      {
+        "bet_name": "Under 2.5",
+        "bet_points": "2.5",
+        "no_vig_price": null,
+        "price": 650,
+        "sportsbooks": [
+          "PointsBet (Australia)"
+        ],
+        "deep_link_map": {},
+        "pinny_no_vig_price": null,
+        "dangerous_text": null,
+        "edge_percent": null,
+        "price_boosted": null,
+        "rec_size": null,
+        "order": null
+      }
+    ],
+    "is_live": false,
+    "in_game_status": null,
+    "period": null,
+    "clock": null,
+    "last_play": null,
+    "home_score": null,
+    "away_score": null,
+    "sport": "Football",
+    "league": "NFL",
+    "market": "1st Quarter Total Points",
+    "market_width": null,
+    "percentage": 0,
+    "start_date": "2024-10-15T00:15:00Z",
+    "home_team": "New York Jets",
+    "away_team": "Buffalo Bills",
+    "timestamp": 1728903519.315492,
+    "status": "unplayed",
+    "bet_placed": false,
+    "same_market_bet_placed": false,
+    "same_game_bet_placed": false,
+    "cross_line_comparison": false
+  },
+  {
+    "id": "middle:16341-12806-24-42:point_spread:buffalo_bills_+9_5:new_york_jets_-8_5",
+    "bet_id": "middle:16341-12806-24-42:point_spread:buffalo_bills_+9_5:new_york_jets_-8_5",
+    "game_id": "16341-12806-24-42",
+    "distance": 1,
+    "bets": [
+      {
+        "bet_name": "Buffalo Bills +9.5",
+        "bet_points": "+9.5",
+        "no_vig_price": null,
+        "price": -400,
+        "sportsbooks": [
+          "PointsBet (Australia)"
+        ],
+        "deep_link_map": {},
+        "pinny_no_vig_price": null,
+        "dangerous_text": null,
+        "edge_percent": null,
+        "price_boosted": null,
+        "rec_size": null,
+        "order": null
+      },
+      {
+        "bet_name": "New York Jets -8.5",
+        "bet_points": "-8.5",
+        "no_vig_price": null,
+        "price": 400,
+        "sportsbooks": [
+          "Sportsbet"
+        ],
+        "deep_link_map": {},
+        "pinny_no_vig_price": null,
+        "dangerous_text": null,
+        "edge_percent": null,
+        "price_boosted": null,
+        "rec_size": null,
+        "order": null
+      }
+    ],
+    "is_live": false,
+    "in_game_status": null,
+    "period": null,
+    "clock": null,
+    "last_play": null,
+    "home_score": null,
+    "away_score": null,
+    "sport": "Football",
+    "league": "NFL",
+    "market": "Point Spread",
+    "market_width": null,
+    "percentage": 0,
+    "start_date": "2024-10-15T00:15:00Z",
+    "home_team": "New York Jets",
+    "away_team": "Buffalo Bills",
+    "timestamp": 1728903699.378824,
+    "status": "unplayed",
+    "bet_placed": false,
+    "same_market_bet_placed": false,
+    "same_game_bet_placed": false,
+    "cross_line_comparison": false
+  },
+  {
+    "id": "middle:16341-12806-24-42:point_spread:buffalo_bills_+16_5:new_york_jets_-15_5",
+    "bet_id": "middle:16341-12806-24-42:point_spread:buffalo_bills_+16_5:new_york_jets_-15_5",
+    "game_id": "16341-12806-24-42",
+    "distance": 1,
+    "bets": [
+      {
+        "bet_name": "Buffalo Bills +16.5",
+        "bet_points": "+16.5",
+        "no_vig_price": null,
+        "price": -1111,
+        "sportsbooks": [
+          "PointsBet (Australia)"
+        ],
+        "deep_link_map": {},
+        "pinny_no_vig_price": null,
+        "dangerous_text": null,
+        "edge_percent": null,
+        "price_boosted": null,
+        "rec_size": null,
+        "order": null
+      },
+      {
+        "bet_name": "New York Jets -15.5",
+        "bet_points": "-15.5",
+        "no_vig_price": null,
+        "price": 1000,
+        "sportsbooks": [
+          "Sportsbet"
+        ],
+        "deep_link_map": {},
+        "pinny_no_vig_price": null,
+        "dangerous_text": null,
+        "edge_percent": null,
+        "price_boosted": null,
+        "rec_size": null,
+        "order": null
+      }
+    ],
+    "is_live": false,
+    "in_game_status": null,
+    "period": null,
+    "clock": null,
+    "last_play": null,
+    "home_score": null,
+    "away_score": null,
+    "sport": "Football",
+    "league": "NFL",
+    "market": "Point Spread",
+    "market_width": null,
+    "percentage": -0.83,
+    "start_date": "2024-10-15T00:15:00Z",
+    "home_team": "New York Jets",
+    "away_team": "Buffalo Bills",
+    "timestamp": 1728903691.9358835,
+    "status": "unplayed",
+    "bet_placed": false,
+    "same_market_bet_placed": false,
+    "same_game_bet_placed": false,
+    "cross_line_comparison": false
+  },
+  {
+    "id": "middle:16341-12806-24-42:point_spread:buffalo_bills_+15_5:new_york_jets_-14_5",
+    "bet_id": "middle:16341-12806-24-42:point_spread:buffalo_bills_+15_5:new_york_jets_-14_5",
+    "game_id": "16341-12806-24-42",
+    "distance": 1,
+    "bets": [
+      {
+        "bet_name": "Buffalo Bills +15.5",
+        "bet_points": "+15.5",
+        "no_vig_price": null,
+        "price": -1000,
+        "sportsbooks": [
+          "PointsBet (Australia)"
+        ],
+        "deep_link_map": {},
+        "pinny_no_vig_price": null,
+        "dangerous_text": null,
+        "edge_percent": null,
+        "price_boosted": null,
+        "rec_size": null,
+        "order": null
+      },
+      {
+        "bet_name": "New York Jets -14.5",
+        "bet_points": "-14.5",
+        "no_vig_price": null,
+        "price": 900,
+        "sportsbooks": [
+          "Sportsbet"
+        ],
+        "deep_link_map": {},
+        "pinny_no_vig_price": null,
+        "dangerous_text": null,
+        "edge_percent": null,
+        "price_boosted": null,
+        "rec_size": null,
+        "order": null
+      }
+    ],
+    "is_live": false,
+    "in_game_status": null,
+    "period": null,
+    "clock": null,
+    "last_play": null,
+    "home_score": null,
+    "away_score": null,
+    "sport": "Football",
+    "league": "NFL",
+    "market": "Point Spread",
+    "market_width": null,
+    "percentage": -0.91,
+    "start_date": "2024-10-15T00:15:00Z",
+    "home_team": "New York Jets",
+    "away_team": "Buffalo Bills",
+    "timestamp": 1728903691.7118154,
+    "status": "unplayed",
+    "bet_placed": false,
+    "same_market_bet_placed": false,
+    "same_game_bet_placed": false,
+    "cross_line_comparison": false
+  },
+  {
+    "id": "middle:16341-12806-24-42:point_spread:buffalo_bills_+12_5:new_york_jets_-11_5",
+    "bet_id": "middle:16341-12806-24-42:point_spread:buffalo_bills_+12_5:new_york_jets_-11_5",
+    "game_id": "16341-12806-24-42",
+    "distance": 1,
+    "bets": [
+      {
+        "bet_name": "Buffalo Bills +12.5",
+        "bet_points": "+12.5",
+        "no_vig_price": null,
+        "price": -625,
+        "sportsbooks": [
+          "PointsBet (Australia)"
+        ],
+        "deep_link_map": {},
+        "pinny_no_vig_price": null,
+        "dangerous_text": null,
+        "edge_percent": null,
+        "price_boosted": null,
+        "rec_size": null,
+        "order": null
+      },
+      {
+        "bet_name": "New York Jets -11.5",
+        "bet_points": "-11.5",
+        "no_vig_price": null,
+        "price": 580,
+        "sportsbooks": [
+          "Sportsbet"
+        ],
+        "deep_link_map": {},
+        "pinny_no_vig_price": null,
+        "dangerous_text": null,
+        "edge_percent": null,
+        "price_boosted": null,
+        "rec_size": null,
+        "order": null
+      }
+    ],
+    "is_live": false,
+    "in_game_status": null,
+    "period": null,
+    "clock": null,
+    "last_play": null,
+    "home_score": null,
+    "away_score": null,
+    "sport": "Football",
+    "league": "NFL",
+    "market": "Point Spread",
+    "market_width": null,
+    "percentage": -0.91,
+    "start_date": "2024-10-15T00:15:00Z",
+    "home_team": "New York Jets",
+    "away_team": "Buffalo Bills",
+    "timestamp": 1728903690.695554,
+    "status": "unplayed",
+    "bet_placed": false,
+    "same_market_bet_placed": false,
+    "same_game_bet_placed": false,
+    "cross_line_comparison": false
+  },
+  {
+    "id": "middle:16341-12806-24-42:point_spread:buffalo_bills_+8_5:new_york_jets_-7_5",
+    "bet_id": "middle:16341-12806-24-42:point_spread:buffalo_bills_+8_5:new_york_jets_-7_5",
+    "game_id": "16341-12806-24-42",
+    "distance": 1,
+    "bets": [
+      {
+        "bet_name": "Buffalo Bills +8.5",
+        "bet_points": "+8.5",
+        "no_vig_price": null,
+        "price": -370,
+        "sportsbooks": [
+          "PointsBet (Australia)"
+        ],
+        "deep_link_map": {},
+        "pinny_no_vig_price": null,
+        "dangerous_text": null,
+        "edge_percent": null,
+        "price_boosted": null,
+        "rec_size": null,
+        "order": null
+      },
+      {
+        "bet_name": "New York Jets -7.5",
+        "bet_points": "-7.5",
+        "no_vig_price": null,
+        "price": 350,
+        "sportsbooks": [
+          "Sportsbet"
+        ],
+        "deep_link_map": {},
+        "pinny_no_vig_price": null,
+        "dangerous_text": null,
+        "edge_percent": null,
+        "price_boosted": null,
+        "rec_size": null,
+        "order": null
+      }
+    ],
+    "is_live": false,
+    "in_game_status": null,
+    "period": null,
+    "clock": null,
+    "last_play": null,
+    "home_score": null,
+    "away_score": null,
+    "sport": "Football",
+    "league": "NFL",
+    "market": "Point Spread",
+    "market_width": null,
+    "percentage": -0.95,
+    "start_date": "2024-10-15T00:15:00Z",
+    "home_team": "New York Jets",
+    "away_team": "Buffalo Bills",
+    "timestamp": 1728903695.9834738,
+    "status": "unplayed",
+    "bet_placed": false,
+    "same_market_bet_placed": false,
+    "same_game_bet_placed": false,
+    "cross_line_comparison": false
+  }
+]
