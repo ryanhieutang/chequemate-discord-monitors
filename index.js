@@ -7,17 +7,46 @@ const { sendOtpRequest } = require('./login/loginRequest');
 const compareArbitrageData = require('./arbitrage/compareData');
 const compareEVData = require('./ev/compareData');
 const compareMiddlesData = require('./middles/compareData');
+const axios = require('axios');
+
+const DISCORD_DEBUG_URL = 'https://discord.com/api/webhooks/1296059738638909470/BgFtlUG7m1jM6vViHsQZwVXRzpSkz0AcFLL-ZwlZUWswWG3oElEuitr6mJ_Dtd3oopdx';
+
+// Send a Discord message with custom color and text
+async function sendDiscordMessage(color, title, description) {
+    const currentTime = new Date().toLocaleString(); // Get current time in local string format
+
+    const embed = {
+        embeds: [{
+            title: title,
+            description: description,
+            color: color,
+            footer: {
+                text: `Sent at ${currentTime}`,  // Include time in the footer
+            }
+        }]
+    };
+
+    try {
+        await axios.post(DISCORD_DEBUG_URL, embed, {
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        });
+    } catch (error) {
+        console.error("Error sending Discord message:", error);
+    }
+}
 
 async function reLogin() {
-    console.log('Attempting re-login...');
+    await sendDiscordMessage(0x33B97C, 'Re-login Attempt', 'Attempting re-login...');
     await sendOtpRequest();
     const newAccessToken = readTokenFromFile();
     
     if (newAccessToken) {
-        console.log('New access token obtained.');
+        await sendDiscordMessage(0x33B97C, 'Access Token', 'New access token obtained.');
         return newAccessToken;
     } else {
-        console.error('Failed to obtain new access token.');
+        await sendDiscordMessage(0xE95046, 'Access Token Error', 'Failed to obtain new access token.');
         return null;
     }
 }
@@ -26,22 +55,20 @@ async function executeTaskWithTokenCheck(taskName, fetcherFunction, compareFunct
     let accessToken = readTokenFromFile();
     
     if (!accessToken) {
-        console.log(`No access token found. Starting login for task: ${taskName}`);
+        await sendDiscordMessage(0x33B97C, `No Access Token`, `No access token found. Starting login for task: ${taskName}`);
         accessToken = await reLogin();
         if (!accessToken) {
-            console.error(`Failed to start ${taskName} due to login failure.`);
+            await sendDiscordMessage(0xE95046, `Login Failure`, `Failed to start ${taskName} due to login failure.`);
             return;
         }
     }
 
     try {
         const data = await fetcherFunction(accessToken);
-        
         await compareFunction(data);
-        
     } catch (error) {
         if (error.response && error.response.status === 401) {
-            console.log(`Access token expired for ${taskName}, re-logging in...`);
+            await sendDiscordMessage(0xE95046, `${taskName} Token Expired`, `Access token expired for ${taskName}, re-logging in...`);
 
             accessToken = await reLogin();
             
@@ -49,14 +76,15 @@ async function executeTaskWithTokenCheck(taskName, fetcherFunction, compareFunct
                 try {
                     const data = await fetcherFunction(accessToken);
                     await compareFunction(data);
+                    await sendDiscordMessage(0x33B97C, `${taskName} Retry Success`, `Successfully retried ${taskName} after re-login.`);
                 } catch (retryError) {
-                    console.error(`Error retrying ${taskName} after re-login:`, retryError);
+                    await sendDiscordMessage(0xE95046, `Retry Error`, `Error retrying ${taskName} after re-login: ${retryError.message}`);
                 }
             } else {
-                console.error(`Failed to re-login for ${taskName}.`);
+                await sendDiscordMessage(0xE95046, `Re-login Failure`, `Failed to re-login for ${taskName}.`);
             }
         } else {
-            console.error(`Error in ${taskName}:`, error);
+            await sendDiscordMessage(0xE95046, `${taskName} Error`, `Error in ${taskName}: ${error.message}`);
         }
     }
 }
@@ -81,6 +109,7 @@ async function main() {
     taskManager.addTask(middleTask);
 
     taskManager.startAll(30000);
+    await sendDiscordMessage(0x33B97C, 'Task Manager Started', 'All tasks started with a 30-second interval.');
 }
 
-main().catch(err => console.error(err));
+main().catch(err => sendDiscordMessage(0xE95046, 'Main Error', `Main process error: ${err.message}`));

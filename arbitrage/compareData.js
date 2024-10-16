@@ -2,6 +2,7 @@ const axios = require('axios');
 const { saveData, readData } = require('./dataStorage');
 
 const DISCORD_WEBHOOK_URL = 'https://discord.com/api/webhooks/1294656615399686147/HvRfVogwOeOEJGDHtT3ylZdqWVJ5abqPOR_ATCP5PurEYAAPw_vgsaGfWkQ_PuN9qiza';
+const DISCORD_DEBUG_URL = 'https://discord.com/api/webhooks/1296059738638909470/BgFtlUG7m1jM6vViHsQZwVXRzpSkz0AcFLL-ZwlZUWswWG3oElEuitr6mJ_Dtd3oopdx';
 
 const sportsbookEmojis = {
     "bet365": "<:BET365:1231455502215548999>", 
@@ -27,6 +28,33 @@ const sportsbookUrls = {
     "Neds": "https://www.neds.com.au/"
 };
 
+// Send a Discord message with custom color and text
+async function sendDiscordMessage(color, title, description) {
+    const currentTime = new Date().toLocaleString(); // Get current time in local string format
+
+    const embed = {
+        embeds: [{
+            title: title,
+            description: description,
+            color: color,
+            footer: {
+                text: `Sent at ${currentTime}`,  // Include time in the footer
+            }
+        }]
+    };
+
+    try {
+        await axios.post(DISCORD_DEBUG_URL, embed, {
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        });
+    } catch (error) {
+        console.error("Error sending Discord message:", error);
+    }
+}
+
+
 function convertAmericanToAussieOdds(americanOdds) {
     if (americanOdds < 0) {
         return (100 / Math.abs(americanOdds)) + 1;
@@ -50,20 +78,23 @@ async function sendToDiscord(newElement) {
     const bet1Link = bet1.deep_link_map?.bet365?.desktop || sportsbookUrls[bet1.sportsbooks[0]] || '#';
     const bet2Link = bet2.deep_link_map?.desktop || sportsbookUrls[bet2.sportsbooks[0]] || '#';
 
+    const currentTimestamp = new Date().toLocaleString();
+    const startTimestamp = Math.floor(new Date(start_date).getTime() / 1000);
+
     const embedMessage = {
         embeds: [
             {
                 title: `${percentage}% Arbitrage Found! :money_with_wings:`,
                 description: `**${sport} | ${league} | ${home_team} vs ${away_team}**\n\n` +
-                             `:clock3: Starts <t:${Math.floor(new Date(start_date).getTime() / 1000)}:R>\n\n` +
+                             `:clock3: Starts <t:${startTimestamp}:R>\n\n` +
                              `> **Market:** ${market}\n\n` +
-                             `> **Bet 1: ${bet1.bet_name}** @ ${bet1AussieOdds.toFixed(2)} on ${bet1Emoji} [${bet1.sportsbooks.join(', ')}](${bet1Link})\n` +
-                             `> **Bet 2: ${bet2.bet_name}** @ ${bet2AussieOdds.toFixed(2)} on ${bet2Emoji} [${bet2.sportsbooks.join(', ')}](${bet2Link})\n\n` +
+                             `> **Bet 1:** ${bet1.bet_name} @ ${bet1AussieOdds.toFixed(2)} on ${bet1Emoji} [${bet1.sportsbooks.join(', ')}](${bet1Link})\n` +
+                             `> **Bet 2:** ${bet2.bet_name} @ ${bet2AussieOdds.toFixed(2)} on ${bet2Emoji} [${bet2.sportsbooks.join(', ')}](${bet2Link})\n\n` +
                              `**For optimal bet size, use this [calculator](https://chequemate.au/calculators)**`,
                 color: 0xffdd00,
                 footer: {
-                    text: "Data provided by ChequeMate Arbitrage Bot",
-                    icon_url: "https://media.discordapp.net/attachments/1251388838115545119/1270568017016655943/Untitled_design_3.png?ex=670c80ad&is=670b2f2d&hm=30fcf45821ea937b2cc562418270368307ce8c8091f0750b6dcbe158aef40c48&=&format=webp&quality=lossless&width=1000&height=1000" // Author image URL
+                    text: `Data provided by ChequeMate Arbitrage Bot | ${currentTimestamp}`,
+                    icon_url: "https://media.discordapp.net/attachments/1251388838115545119/1270568017016655943/Untitled_design_3.png?ex=670c80ad&is=670b2f2d&hm=30fcf45821ea937b2cc562418270368307ce8c8091f0750b6dcbe158aef40c48&=&format=webp&quality=lossless&width=1000&height=1000"
                 },
             }
         ]
@@ -71,9 +102,8 @@ async function sendToDiscord(newElement) {
 
     try {
         await axios.post(DISCORD_WEBHOOK_URL, embedMessage);
-        console.log('New arbitrage opportunity posted to Discord:', embedMessage);
     } catch (error) {
-        console.error('Error sending arbitrage opportunity to Discord:', error);
+        await sendDiscordMessage(0xE95046, 'Error Posting to Discord', `Error sending arbitrage opportunity to Discord: ${error.message}`);
     }
 }
 
@@ -82,19 +112,27 @@ async function compareData(newData) {
         const previousData = await readData();
         const previousDataIds = previousData.map(item => item.id);
 
-        const newElements = newData.filter(item => !previousDataIds.includes(item.id));
+        // Filter out games more than 72 hours away
+        const currentTime = Date.now();
+        const maxTimeInFuture = 72 * 60 * 60 * 1000; // 72 hours in milliseconds
+
+        const newElements = newData.filter(item => {
+            const startTime = new Date(item.start_date).getTime();
+            return !previousDataIds.includes(item.id) && (startTime - currentTime <= maxTimeInFuture);
+        });
 
         if (newElements.length > 0) {
             for (const newElement of newElements) {
+                await sendDiscordMessage(0x33B97C, 'New Arbitrage Opportunity Found', `${JSON.stringify(newElement, null, 2)}`);
                 await sendToDiscord(newElement);
             }
         } else {
-            console.log('No new elements found.');
+            await sendDiscordMessage(0xF6A000, 'No new arbitrage opportunity found or all new are more than 72 hours away.', null);
         }
 
         await saveData(newData);
     } catch (error) {
-        console.error('Error comparing data:', error);
+        await sendDiscordMessage(0xE95046, 'Error Comparing Data', `Error comparing data: ${error.message}`);
     }
 }
 
