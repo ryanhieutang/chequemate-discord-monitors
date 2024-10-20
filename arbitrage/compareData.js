@@ -28,6 +28,26 @@ const sportsbookUrls = {
     "Neds": "https://www.neds.com.au/"
 };
 
+// Helper function to determine the correct deep link or fallback URL
+function getDeepLink(bet, sportsbook) {
+    // Check for a deep link in the bet's deep_link_map
+    if (bet.deep_link_map?.[sportsbook]?.desktop) {
+        return bet.deep_link_map[sportsbook].desktop;
+    } else if (bet.deep_link_map?.desktop) {
+        return bet.deep_link_map.desktop;
+    }
+    // Fall back to the default sportsbook URL if no deep link is found
+    return sportsbookUrls[sportsbook] || '#';
+}
+
+function convertAmericanToAussieOdds(americanOdds) {
+    if (americanOdds < 0) {
+        return (100 / Math.abs(americanOdds)) + 1;
+    } else {
+        return (americanOdds / 100) + 1;
+    }
+}
+
 // Send a Discord message with custom color and text
 async function sendDiscordMessage(color, title, description) {
     const currentTime = new Date().toLocaleString(); // Get current time in local string format
@@ -54,15 +74,6 @@ async function sendDiscordMessage(color, title, description) {
     }
 }
 
-
-function convertAmericanToAussieOdds(americanOdds) {
-    if (americanOdds < 0) {
-        return (100 / Math.abs(americanOdds)) + 1;
-    } else {
-        return (americanOdds / 100) + 1;
-    }
-}
-
 async function sendToDiscord(newElement) {
     const { percentage, sport, league, market, home_team, away_team, bets, start_date } = newElement;
 
@@ -75,8 +86,9 @@ async function sendToDiscord(newElement) {
     const bet1AussieOdds = convertAmericanToAussieOdds(bet1.price);
     const bet2AussieOdds = convertAmericanToAussieOdds(bet2.price);
 
-    const bet1Link = bet1.deep_link_map?.bet365?.desktop || sportsbookUrls[bet1.sportsbooks[0]] || '#';
-    const bet2Link = bet2.deep_link_map?.desktop || sportsbookUrls[bet2.sportsbooks[0]] || '#';
+    // Check if a direct link exists in deep_link_map; if not, use default sportsbook URL
+    const bet1Link = getDeepLink(bet1, bet1.sportsbooks[0]);
+    const bet2Link = getDeepLink(bet2, bet2.sportsbooks[0]);
 
     const currentTimestamp = new Date().toLocaleString();
     const startTimestamp = Math.floor(new Date(start_date).getTime() / 1000);
@@ -94,7 +106,7 @@ async function sendToDiscord(newElement) {
                 color: 0xffdd00,
                 footer: {
                     text: `Data provided by ChequeMate Arbitrage Bot | ${currentTimestamp}`,
-                    icon_url: "https://media.discordapp.net/attachments/1251388838115545119/1270568017016655943/Untitled_design_3.png?ex=670c80ad&is=670b2f2d&hm=30fcf45821ea937b2cc562418270368307ce8c8091f0750b6dcbe158aef40c48&=&format=webp&quality=lossless&width=1000&height=1000"
+                    icon_url: "https://media.discordapp.net/attachments/1251388838115545119/1270568017016655943/Untitled_design_3.png"
                 },
             }
         ]
@@ -123,8 +135,13 @@ async function compareData(newData) {
 
         if (newElements.length > 0) {
             for (const newElement of newElements) {
-                await sendDiscordMessage(0x33B97C, 'New Arbitrage Opportunity Found', `${JSON.stringify(newElement, null, 2)}`);
-                await sendToDiscord(newElement);
+                // Check if percentage is 5% or higher before sending the message
+                if (newElement.percentage >= 5) {
+                    await sendDiscordMessage(0x33B97C, 'New Arbitrage Opportunity Found', `${JSON.stringify(newElement, null, 2)}`);
+                    await sendToDiscord(newElement);
+                } else {
+                    console.log(`Skipped posting arbitrage opportunity with percentage ${newElement.percentage}% (less than 5%)`);
+                }
             }
         } else {
             await sendDiscordMessage(0xF6A000, 'No new arbitrage opportunity found or all new are more than 72 hours away.', null);

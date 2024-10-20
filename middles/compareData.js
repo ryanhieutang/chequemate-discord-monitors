@@ -24,6 +24,16 @@ const sportsbookUrls = {
     "Neds": "https://www.neds.com.au/"
 };
 
+// Helper function to get deep link or fallback to default link
+function getDeepLink(bet, sportsbook) {
+    if (bet.deep_link_map?.[sportsbook]?.desktop) {
+        return bet.deep_link_map[sportsbook].desktop;
+    } else if (bet.deep_link_map?.desktop) {
+        return bet.deep_link_map.desktop;
+    }
+    return sportsbookUrls[sportsbook] || '#';
+}
+
 // Send a Discord message with custom color and text
 async function sendDiscordMessage(color, title, description) {
     const currentTime = new Date().toLocaleString(); // Get current time in local string format
@@ -70,8 +80,9 @@ async function sendToDiscord(newElement) {
     const bet1AussieOdds = convertAmericanToAussieOdds(bet1.price);
     const bet2AussieOdds = convertAmericanToAussieOdds(bet2.price);
 
-    const bet1Link = bet1.deep_link_map?.bet365?.desktop || sportsbookUrls[bet1.sportsbooks[0]] || '#';
-    const bet2Link = bet2.deep_link_map?.desktop || sportsbookUrls[bet2.sportsbooks[0]] || '#';
+    // Use getDeepLink function to get the correct links
+    const bet1Link = getDeepLink(bet1, bet1.sportsbooks[0]);
+    const bet2Link = getDeepLink(bet2, bet2.sportsbooks[0]);
 
     const currentTimestamp = new Date().toLocaleString();
     const startTimestamp = Math.floor(new Date(start_date).getTime() / 1000);

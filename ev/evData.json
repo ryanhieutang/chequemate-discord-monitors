@@ -1,118 +1,36 @@
 [
   {
-    "id": "edge:27843-24860-2024-10-23:moneyline:los_angeles_clippers:phoenix_suns",
-    "bet_id": "edge:27843-24860-2024-10-23:moneyline:los_angeles_clippers:phoenix_suns",
-    "game_id": "27843-24860-2024-10-23",
+    "id": "edge:21473-37797-24-42:player_touchdowns:david_montgomery_over_0_5:david_montgomery_under_0_5",
+    "bet_id": "edge:21473-37797-24-42:player_touchdowns:david_montgomery_over_0_5:david_montgomery_under_0_5",
+    "game_id": "21473-37797-24-42",
     "distance": null,
     "bets": [
       {
-        "bet_name": "Los Angeles Clippers",
-        "bet_points": null,
-        "no_vig_price": 145.61087429991665,
-        "price": 147,
+        "bet_name": "David Montgomery Over 0.5",
+        "bet_points": "0.5",
+        "no_vig_price": -142.10282882600177,
+        "price": -114,
         "sportsbooks": [
-          "GGBet"
+          "Sportsbet"
         ],
         "deep_link_map": {},
-        "pinny_no_vig_price": null,
+        "pinny_no_vig_price": -123.70464135021095,
         "dangerous_text": null,
-        "edge_percent": 0.57,
-        "price_boosted": null,
-        "rec_size": 1,
-        "order": null
-      },
-      {
-        "bet_name": "Phoenix Suns",
-        "bet_points": null,
-        "no_vig_price": -145.61087429991665,
-        "price": -105,
-        "sportsbooks": [
-          "Ladbrokes (Australia)",
-          "Neds"
-        ],
-        "deep_link_map": {},
-        "pinny_no_vig_price": null,
-        "dangerous_text": null,
-        "edge_percent": 15.75,
-        "price_boosted": null,
-        "rec_size": 25,
-        "order": null
-      }
-    ],
-    "is_live": false,
-    "in_game_status": null,
-    "period": null,
-    "clock": null,
-    "last_play": null,
-    "home_score": null,
-    "away_score": null,
-    "sport": "Basketball",
-    "league": "NBA",
-    "market": "Moneyline",
-    "market_width": 21,
-    "percentage": 15.75,
-    "start_date": "2024-10-24T02:00:00Z",
-    "home_team": "Los Angeles Clippers",
-    "away_team": "Phoenix Suns",
-    "timestamp": 1729077389.1387928,
-    "status": "unplayed",
-    "bet_placed": false,
-    "same_market_bet_placed": false,
-    "same_game_bet_placed": false,
-    "rec_size": 25,
-    "cross_line_comparison": false
-  },
-  {
-    "id": "edge:11928-42237-2024-10-19:team_total_corners:eintracht_frankfurt_over_3_5:eintracht_frankfurt_under_3_5",
-    "bet_id": "edge:11928-42237-2024-10-19:team_total_corners:eintracht_frankfurt_over_3_5:eintracht_frankfurt_under_3_5",
-    "game_id": "11928-42237-2024-10-19",
-    "distance": null,
-    "bets": [
-      {
-        "bet_name": "Eintracht Frankfurt Over 3.5",
-        "bet_points": "3.5",
-        "no_vig_price": -100.68713687459675,
-        "price": 120,
-        "sportsbooks": [
-          "bet365"
-        ],
-        "deep_link_map": {
-          "bet365": {
-            "mobile": "com.bet365.bet365NJ://dl/sportsbookredirect",
-            "desktop": "https://www.bet365.com.au/#/AC/B1/C1/D8/E162369271/F3/I5/",
-            "urls": {
-              "desktop": {
-                "url": "https://www.bet365.com.au/#/AC/B1/C1/D8/E162369271/F3/I5/",
-                "adds_to_slip": false
-              },
-              "ios": {
-                "url": "com.bet365.bet365NJ://dl/sportsbookredirect",
-                "adds_to_slip": false
-              },
-              "android": {
-                "url": "com.bet365.bet365NJ://dl/sportsbookredirect",
-                "adds_to_slip": false
-              }
-            }
-          }
-        },
-        "pinny_no_vig_price": null,
-        "dangerous_text": null,
-        "edge_percent": 10.38,
+        "edge_percent": 10.18,
         "price_boosted": null,
         "rec_size": 15,
         "order": null
       },
       {
-        "bet_name": "Eintracht Frankfurt Under 3.5",
-        "bet_points": "3.5",
-        "no_vig_price": 100.68713687459675,
-        "price": -104,
+        "bet_name": "David Montgomery Under 0.5",
+        "bet_points": "0.5",
+        "no_vig_price": 142.1028288260018,
+        "price": 125,
         "sportsbooks": [
-          "GGBet"
+          "Circa Sports"
         ],
         "deep_link_map": {},
-        "pinny_no_vig_price": null,
+        "pinny_no_vig_price": 123.70464135021099,
         "dangerous_text": null,
         "edge_percent": null,
         "price_boosted": null,
@@ -125,17 +43,17 @@
     "period": null,
     "clock": null,
     "last_play": null,
-    "home_score": null,
-    "away_score": null,
-    "sport": "Soccer",
-    "league": "Germany - Bundesliga",
-    "market": "Team Total Corners",
-    "market_width": 60,
-    "percentage": 10.38,
-    "start_date": "2024-10-19T13:30:00Z",
-    "home_team": "Bayer 04 Leverkusen",
-    "away_team": "Eintracht Frankfurt",
-    "timestamp": 1729077108.671778,
+    "home_score": 0,
+    "away_score": 0,
+    "sport": "Football",
+    "league": "NFL",
+    "market": "Player Touchdowns",
+    "market_width": 23,
+    "percentage": 10.18,
+    "start_date": "2024-10-20T17:00:00Z",
+    "home_team": "Minnesota Vikings",
+    "away_team": "Detroit Lions",
+    "timestamp": 1729421769.3902252,
     "status": "unplayed",
     "bet_placed": false,
     "same_market_bet_placed": false,
@@ -144,26 +62,202 @@
     "cross_line_comparison": false
   },
   {
-    "id": "edge:18821-42288-24-43:total_touchdowns:over_5_5:under_5_5",
-    "bet_id": "edge:18821-42288-24-43:total_touchdowns:over_5_5:under_5_5",
-    "game_id": "18821-42288-24-43",
+    "id": "edge:75310-16188-2024-10-20:moneyline:draw:le_havre_ac:olympique_lyonnais",
+    "bet_id": "edge:75310-16188-2024-10-20:moneyline:draw:le_havre_ac:olympique_lyonnais",
+    "game_id": "75310-16188-2024-10-20",
     "distance": null,
     "bets": [
       {
-        "bet_name": "Over 5.5",
-        "bet_points": "5.5",
-        "no_vig_price": -105.19010027265891,
-        "price": 110,
+        "bet_name": "Le Havre AC",
+        "price": 350,
+        "no_vig_price": 361.3069170517681,
+        "normalized_sportsbooks": [
+          "betfair",
+          "fanduel",
+          "fanduel_ontario_"
+        ],
+        "sportsbooks": [
+          "Betfair"
+        ],
+        "edge_percent": null,
+        "deep_link_map": {
+          "Betfair": {
+            "mobile": "https://www.betfair.com/betting/soccer/france---ligue-1/olympique-lyonnais-v-le-havre-ac/e-33655901",
+            "desktop": "https://www.betfair.com/betting/soccer/france---ligue-1/olympique-lyonnais-v-le-havre-ac/e-33655901"
+          }
+        }
+      },
+      {
+        "bet_name": "Draw",
+        "price": 300,
+        "no_vig_price": 301.9591371789672,
+        "normalized_sportsbooks": [
+          "tonybet"
+        ],
+        "sportsbooks": [
+          "TonyBet"
+        ],
+        "edge_percent": null,
+        "deep_link_map": {}
+      },
+      {
+        "bet_name": "Olympique Lyonnais",
+        "price": 105,
+        "no_vig_price": -113.67044138259065,
+        "normalized_sportsbooks": [
+          "ladbrokes_australia_",
+          "neds"
+        ],
+        "sportsbooks": [
+          "Ladbrokes (Australia)",
+          "Neds"
+        ],
+        "edge_percent": 9.06,
+        "rec_size": 15,
+        "deep_link_map": {}
+      }
+    ],
+    "is_live": false,
+    "in_game_status": null,
+    "period": null,
+    "clock": null,
+    "last_play": null,
+    "home_score": 0,
+    "away_score": 0,
+    "sport": "Soccer",
+    "league": "France - Ligue 1",
+    "market": "Moneyline",
+    "market_width": null,
+    "percentage": 9.06,
+    "start_date": "2024-10-20T13:00:00Z",
+    "home_team": "Le Havre AC",
+    "away_team": "Olympique Lyonnais",
+    "timestamp": 1729421795.2132485,
+    "status": "unplayed",
+    "bet_placed": false,
+    "same_market_bet_placed": false,
+    "same_game_bet_placed": false,
+    "rec_size": 15
+  },
+  {
+    "id": "edge:21473-37797-24-42:player_touchdowns:justin_jefferson_over_0_5:justin_jefferson_under_0_5",
+    "bet_id": "edge:21473-37797-24-42:player_touchdowns:justin_jefferson_over_0_5:justin_jefferson_under_0_5",
+    "game_id": "21473-37797-24-42",
+    "distance": null,
+    "bets": [
+      {
+        "bet_name": "Justin Jefferson Over 0.5",
+        "bet_points": "0.5",
+        "no_vig_price": -119.70197099258554,
+        "price": 100,
+        "sportsbooks": [
+          "Sportsbet"
+        ],
+        "deep_link_map": {},
+        "pinny_no_vig_price": -104.42967884828349,
+        "dangerous_text": null,
+        "edge_percent": 8.97,
+        "price_boosted": null,
+        "rec_size": 15,
+        "order": null
+      },
+      {
+        "bet_name": "Justin Jefferson Under 0.5",
+        "bet_points": "0.5",
+        "no_vig_price": 119.70197099258553,
+        "price": 100,
+        "sportsbooks": [
+          "Circa Sports"
+        ],
+        "deep_link_map": {},
+        "pinny_no_vig_price": 104.42967884828352,
+        "dangerous_text": null,
+        "edge_percent": null,
+        "price_boosted": null,
+        "rec_size": null,
+        "order": null
+      }
+    ],
+    "is_live": false,
+    "in_game_status": null,
+    "period": null,
+    "clock": null,
+    "last_play": null,
+    "home_score": 0,
+    "away_score": 0,
+    "sport": "Football",
+    "league": "NFL",
+    "market": "Player Touchdowns",
+    "market_width": 20,
+    "percentage": 8.97,
+    "start_date": "2024-10-20T17:00:00Z",
+    "home_team": "Minnesota Vikings",
+    "away_team": "Detroit Lions",
+    "timestamp": 1729421769.9906995,
+    "status": "unplayed",
+    "bet_placed": false,
+    "same_market_bet_placed": false,
+    "same_game_bet_placed": false,
+    "rec_size": 15,
+    "cross_line_comparison": false
+  },
+  {
+    "id": "edge:71125-30519-2024-10-21:player_shots_on_target:morgan_gibbs-white_over_0_5:morgan_gibbs-white_under_0_5",
+    "bet_id": "edge:71125-30519-2024-10-21:player_shots_on_target:morgan_gibbs-white_over_0_5:morgan_gibbs-white_under_0_5",
+    "game_id": "71125-30519-2024-10-21",
+    "distance": null,
+    "bets": [
+      {
+        "bet_name": "Morgan Gibbs-White Over 0.5",
+        "bet_points": "0.5",
+        "no_vig_price": 119.16859228234647,
+        "price": 102,
+        "sportsbooks": [
+          "Unibet (Australia)",
+          "TABtouch"
+        ],
+        "deep_link_map": {
+          "Unibet (Australia)": {
+            "mobile": "https://au-au.unibet.com/betting/sports/event/1021042566",
+            "desktop": "https://au-au.unibet.com/betting/sports/event/1021042566",
+            "urls": {
+              "desktop": {
+                "url": "https://au-au.unibet.com/betting/sports/event/1021042566",
+                "adds_to_slip": false
+              },
+              "ios": {
+                "url": "https://au-au.unibet.com/betting/sports/event/1021042566",
+                "adds_to_slip": false
+              },
+              "android": {
+                "url": "https://au-au.unibet.com/betting/sports/event/1021042566",
+                "adds_to_slip": false
+              }
+            }
+          }
+        },
+        "pinny_no_vig_price": null,
+        "dangerous_text": null,
+        "edge_percent": null,
+        "price_boosted": null,
+        "rec_size": null,
+        "order": null
+      },
+      {
+        "bet_name": "Morgan Gibbs-White Under 0.5",
+        "bet_points": "0.5",
+        "no_vig_price": -119.16859228234644,
+        "price": 100,
         "sportsbooks": [
           "bet365"
         ],
         "deep_link_map": {
           "bet365": {
             "mobile": "com.bet365.bet365NJ://dl/sportsbookredirect",
-            "desktop": "https://www.bet365.com.au/#/AC/B12/C20426855/D19/E20919859/F19/I2/",
+            "desktop": "https://www.bet365.com.au/#/AC/B1/C1/D8/E162368899/F3/I8/",
             "urls": {
               "desktop": {
-                "url": "https://www.bet365.com.au/#/AC/B12/C20426855/D19/E20919859/F19/I2/",
+                "url": "https://www.bet365.com.au/#/AC/B1/C1/D8/E162368899/F3/I8/",
                 "adds_to_slip": false
               },
               "ios": {
@@ -179,16 +273,326 @@
         },
         "pinny_no_vig_price": null,
         "dangerous_text": null,
-        "edge_percent": 7.66,
+        "edge_percent": 8.75,
+        "price_boosted": null,
+        "rec_size": 15,
+        "order": null
+      }
+    ],
+    "is_live": false,
+    "in_game_status": null,
+    "period": null,
+    "clock": null,
+    "last_play": null,
+    "home_score": null,
+    "away_score": null,
+    "sport": "Soccer",
+    "league": "England - Premier League",
+    "market": "Player Shots On Target",
+    "market_width": 30,
+    "percentage": 8.75,
+    "start_date": "2024-10-21T19:00:00Z",
+    "home_team": "Nottingham Forest FC",
+    "away_team": "Crystal Palace FC",
+    "timestamp": 1729421309.9576046,
+    "status": "unplayed",
+    "bet_placed": false,
+    "same_market_bet_placed": false,
+    "same_game_bet_placed": false,
+    "rec_size": 15,
+    "cross_line_comparison": false
+  },
+  {
+    "id": "edge:16903-41811-2024-10-22:player_rebounds_+_assists:anthony_davis_over_15_5:anthony_davis_under_15_5",
+    "bet_id": "edge:16903-41811-2024-10-22:player_rebounds_+_assists:anthony_davis_over_15_5:anthony_davis_under_15_5",
+    "game_id": "16903-41811-2024-10-22",
+    "distance": null,
+    "bets": [
+      {
+        "bet_name": "Anthony Davis Over 15.5",
+        "bet_points": "15.5",
+        "no_vig_price": 109.5330854627257,
+        "price": -105,
+        "sportsbooks": [
+          "Fliff"
+        ],
+        "deep_link_map": {
+          "Fliff": {
+            "mobile": "https://sports.getfliff.com/markets/245664_c_p_204_prematch",
+            "desktop": "https://sports.getfliff.com/markets/245664_c_p_204_prematch",
+            "urls": {
+              "desktop": {
+                "url": "https://sports.getfliff.com/markets/245664_c_p_204_prematch",
+                "adds_to_slip": false
+              },
+              "ios": {
+                "url": "https://sports.getfliff.com/markets/245664_c_p_204_prematch",
+                "adds_to_slip": false
+              },
+              "android": {
+                "url": "https://sports.getfliff.com/markets/245664_c_p_204_prematch",
+                "adds_to_slip": false
+              }
+            }
+          }
+        },
+        "pinny_no_vig_price": null,
+        "dangerous_text": null,
+        "edge_percent": null,
+        "price_boosted": null,
+        "rec_size": null,
+        "order": null
+      },
+      {
+        "bet_name": "Anthony Davis Under 15.5",
+        "bet_points": "15.5",
+        "no_vig_price": -109.5330854627257,
+        "price": 104,
+        "sportsbooks": [
+          "TABtouch"
+        ],
+        "deep_link_map": {},
+        "pinny_no_vig_price": null,
+        "dangerous_text": null,
+        "edge_percent": 6.64,
+        "price_boosted": null,
+        "rec_size": 10,
+        "order": null
+      }
+    ],
+    "is_live": false,
+    "in_game_status": null,
+    "period": null,
+    "clock": null,
+    "last_play": null,
+    "home_score": null,
+    "away_score": null,
+    "sport": "Basketball",
+    "league": "NBA",
+    "market": "Player Rebounds + Assists",
+    "market_width": 46,
+    "percentage": 6.64,
+    "start_date": "2024-10-23T02:00:00Z",
+    "home_team": "Los Angeles Lakers",
+    "away_team": "Minnesota Timberwolves",
+    "timestamp": 1729421784.0032392,
+    "status": "unplayed",
+    "bet_placed": false,
+    "same_market_bet_placed": false,
+    "same_game_bet_placed": false,
+    "rec_size": 10,
+    "cross_line_comparison": false
+  },
+  {
+    "id": "edge:17836-22077-2024-10-20:draw_no_bet:association_jeunesse_auxerroise:stade_de_reims",
+    "bet_id": "edge:17836-22077-2024-10-20:draw_no_bet:association_jeunesse_auxerroise:stade_de_reims",
+    "game_id": "17836-22077-2024-10-20",
+    "distance": null,
+    "bets": [
+      {
+        "bet_name": "Association Jeunesse Auxerroise",
+        "bet_points": null,
+        "no_vig_price": 136.2139910375938,
+        "price": 135,
+        "sportsbooks": [
+          "Pinny"
+        ],
+        "deep_link_map": {},
+        "pinny_no_vig_price": 143.203125,
+        "dangerous_text": null,
+        "edge_percent": null,
+        "price_boosted": null,
+        "rec_size": null,
+        "order": null
+      },
+      {
+        "bet_name": "Stade de Reims",
+        "bet_points": null,
+        "no_vig_price": -136.21399103759384,
+        "price": -118,
+        "sportsbooks": [
+          "Ladbrokes (Australia)",
+          "Neds"
+        ],
+        "deep_link_map": {},
+        "pinny_no_vig_price": -143.203125,
+        "dangerous_text": null,
+        "edge_percent": 6.53,
+        "price_boosted": null,
+        "rec_size": 10,
+        "order": null
+      }
+    ],
+    "is_live": false,
+    "in_game_status": null,
+    "period": null,
+    "clock": null,
+    "last_play": null,
+    "home_score": 0,
+    "away_score": 0,
+    "sport": "Soccer",
+    "league": "France - Ligue 1",
+    "market": "Draw No Bet",
+    "market_width": 21,
+    "percentage": 6.53,
+    "start_date": "2024-10-20T15:00:00Z",
+    "home_team": "Association Jeunesse Auxerroise",
+    "away_team": "Stade de Reims",
+    "timestamp": 1729421753.988053,
+    "status": "unplayed",
+    "bet_placed": false,
+    "same_market_bet_placed": false,
+    "same_game_bet_placed": false,
+    "rec_size": 10,
+    "cross_line_comparison": false
+  },
+  {
+    "id": "edge:35511-28941-2024-10-20:player_shots:kyle_walker_over_0_5:kyle_walker_under_0_5",
+    "bet_id": "edge:35511-28941-2024-10-20:player_shots:kyle_walker_over_0_5:kyle_walker_under_0_5",
+    "game_id": "35511-28941-2024-10-20",
+    "distance": null,
+    "bets": [
+      {
+        "bet_name": "Kyle Walker Over 0.5",
+        "bet_points": "0.5",
+        "no_vig_price": 101.19240046948971,
+        "price": -114,
+        "sportsbooks": [
+          "Unibet (Australia)",
+          "TABtouch"
+        ],
+        "deep_link_map": {
+          "Unibet (Australia)": {
+            "mobile": "https://au-au.unibet.com/betting/sports/event/1021042557",
+            "desktop": "https://au-au.unibet.com/betting/sports/event/1021042557",
+            "urls": {
+              "desktop": {
+                "url": "https://au-au.unibet.com/betting/sports/event/1021042557",
+                "adds_to_slip": false
+              },
+              "ios": {
+                "url": "https://au-au.unibet.com/betting/sports/event/1021042557",
+                "adds_to_slip": false
+              },
+              "android": {
+                "url": "https://au-au.unibet.com/betting/sports/event/1021042557",
+                "adds_to_slip": false
+              }
+            }
+          }
+        },
+        "pinny_no_vig_price": null,
+        "dangerous_text": null,
+        "edge_percent": null,
+        "price_boosted": null,
+        "rec_size": null,
+        "order": null
+      },
+      {
+        "bet_name": "Kyle Walker Under 0.5",
+        "bet_points": "0.5",
+        "no_vig_price": -101.19240046948967,
+        "price": 110,
+        "sportsbooks": [
+          "bet365"
+        ],
+        "deep_link_map": {
+          "bet365": {
+            "mobile": "com.bet365.bet365NJ://dl/sportsbookredirect",
+            "desktop": "https://www.bet365.com.au/#/AC/B1/C1/D8/E162368891/F3/I8/",
+            "urls": {
+              "desktop": {
+                "url": "https://www.bet365.com.au/#/AC/B1/C1/D8/E162368891/F3/I8/",
+                "adds_to_slip": false
+              },
+              "ios": {
+                "url": "com.bet365.bet365NJ://dl/sportsbookredirect",
+                "adds_to_slip": false
+              },
+              "android": {
+                "url": "com.bet365.bet365NJ://dl/sportsbookredirect",
+                "adds_to_slip": false
+              }
+            }
+          }
+        },
+        "pinny_no_vig_price": null,
+        "dangerous_text": null,
+        "edge_percent": 5.62,
+        "price_boosted": null,
+        "rec_size": 10,
+        "order": null
+      }
+    ],
+    "is_live": false,
+    "in_game_status": null,
+    "period": null,
+    "clock": null,
+    "last_play": null,
+    "home_score": 0,
+    "away_score": 0,
+    "sport": "Soccer",
+    "league": "England - Premier League",
+    "market": "Player Shots",
+    "market_width": 26,
+    "percentage": 5.62,
+    "start_date": "2024-10-20T13:00:00Z",
+    "home_team": "Wolverhampton Wanderers FC",
+    "away_team": "Manchester City FC",
+    "timestamp": 1729421312.0081568,
+    "status": "unplayed",
+    "bet_placed": false,
+    "same_market_bet_placed": false,
+    "same_game_bet_placed": false,
+    "rec_size": 10,
+    "cross_line_comparison": false
+  },
+  {
+    "id": "edge:18821-42288-24-43:team_total_touchdowns:tampa_bay_buccaneers_over_2_5:tampa_bay_buccaneers_under_2_5",
+    "bet_id": "edge:18821-42288-24-43:team_total_touchdowns:tampa_bay_buccaneers_over_2_5:tampa_bay_buccaneers_under_2_5",
+    "game_id": "18821-42288-24-43",
+    "distance": null,
+    "bets": [
+      {
+        "bet_name": "Tampa Bay Buccaneers Over 2.5",
+        "bet_points": "2.5",
+        "no_vig_price": -106.16438586467265,
+        "price": 105,
+        "sportsbooks": [
+          "bet365"
+        ],
+        "deep_link_map": {
+          "bet365": {
+            "mobile": "com.bet365.bet365NJ://dl/sportsbookredirect",
+            "desktop": "https://www.bet365.com.au/#/AC/B12/C20426855/D19/E20919859/F19/I3/",
+            "urls": {
+              "desktop": {
+                "url": "https://www.bet365.com.au/#/AC/B12/C20426855/D19/E20919859/F19/I3/",
+                "adds_to_slip": false
+              },
+              "ios": {
+                "url": "com.bet365.bet365NJ://dl/sportsbookredirect",
+                "adds_to_slip": false
+              },
+              "android": {
+                "url": "com.bet365.bet365NJ://dl/sportsbookredirect",
+                "adds_to_slip": false
+              }
+            }
+          }
+        },
+        "pinny_no_vig_price": null,
+        "dangerous_text": null,
+        "edge_percent": 5.56,
         "price_boosted": null,
         "rec_size": 10,
         "order": null
       },
       {
-        "bet_name": "Under 5.5",
-        "bet_points": "5.5",
-        "no_vig_price": 105.19010027265891,
-        "price": -105,
+        "bet_name": "Tampa Bay Buccaneers Under 2.5",
+        "bet_points": "2.5",
+        "no_vig_price": 106.16438586467265,
+        "price": -111,
         "sportsbooks": [
           "PointsBet (Australia)"
         ],
@@ -210,13 +614,13 @@
     "away_score": null,
     "sport": "Football",
     "league": "NFL",
-    "market": "Total Touchdowns",
-    "market_width": 22,
-    "percentage": 7.66,
+    "market": "Team Total Touchdowns",
+    "market_width": 24,
+    "percentage": 5.56,
     "start_date": "2024-10-22T00:15:00Z",
     "home_team": "Tampa Bay Buccaneers",
     "away_team": "Baltimore Ravens",
-    "timestamp": 1729077337.4419582,
+    "timestamp": 1729421628.496481,
     "status": "unplayed",
     "bet_placed": false,
     "same_market_bet_placed": false,
@@ -225,26 +629,124 @@
     "cross_line_comparison": false
   },
   {
-    "id": "edge:32825-15053-2024-10-19:team_total_corners:real_madrid_cf_over_5_5:real_madrid_cf_under_5_5",
-    "bet_id": "edge:32825-15053-2024-10-19:team_total_corners:real_madrid_cf_over_5_5:real_madrid_cf_under_5_5",
-    "game_id": "32825-15053-2024-10-19",
+    "id": "edge:32889-25327-24-42:player_touchdowns:bijan_robinson_over_0_5:bijan_robinson_under_0_5",
+    "bet_id": "edge:32889-25327-24-42:player_touchdowns:bijan_robinson_over_0_5:bijan_robinson_under_0_5",
+    "game_id": "32889-25327-24-42",
     "distance": null,
     "bets": [
       {
-        "bet_name": "Real Madrid CF Over 5.5",
-        "bet_points": "5.5",
-        "no_vig_price": -101.15988534850875,
-        "price": 110,
+        "bet_name": "Bijan Robinson Over 0.5",
+        "bet_points": "0.5",
+        "no_vig_price": -144.5800343512462,
+        "price": -128,
+        "sportsbooks": [
+          "Sportsbet"
+        ],
+        "deep_link_map": {},
+        "pinny_no_vig_price": -119.30042918454933,
+        "dangerous_text": null,
+        "edge_percent": 5.3,
+        "price_boosted": null,
+        "rec_size": 10,
+        "order": null
+      },
+      {
+        "bet_name": "Bijan Robinson Under 0.5",
+        "bet_points": "0.5",
+        "no_vig_price": 144.58003435124624,
+        "price": 117,
+        "sportsbooks": [
+          "Sleeper"
+        ],
+        "deep_link_map": {},
+        "pinny_no_vig_price": 119.30042918454937,
+        "dangerous_text": null,
+        "edge_percent": null,
+        "price_boosted": null,
+        "rec_size": null,
+        "order": null
+      }
+    ],
+    "is_live": false,
+    "in_game_status": null,
+    "period": null,
+    "clock": null,
+    "last_play": null,
+    "home_score": 0,
+    "away_score": 0,
+    "sport": "Football",
+    "league": "NFL",
+    "market": "Player Touchdowns",
+    "market_width": 24,
+    "percentage": 5.3,
+    "start_date": "2024-10-20T17:00:00Z",
+    "home_team": "Atlanta Falcons",
+    "away_team": "Seattle Seahawks",
+    "timestamp": 1729421628.8127701,
+    "status": "unplayed",
+    "bet_placed": false,
+    "same_market_bet_placed": false,
+    "same_game_bet_placed": false,
+    "rec_size": 10,
+    "cross_line_comparison": false
+  },
+  {
+    "id": "edge:71125-30519-2024-10-21:player_shots:nikola_milenkovic_over_0_5:nikola_milenkovic_under_0_5",
+    "bet_id": "edge:71125-30519-2024-10-21:player_shots:nikola_milenkovic_over_0_5:nikola_milenkovic_under_0_5",
+    "game_id": "71125-30519-2024-10-21",
+    "distance": null,
+    "bets": [
+      {
+        "bet_name": "Nikola Milenkovic Over 0.5",
+        "bet_points": "0.5",
+        "no_vig_price": 136.9612821734687,
+        "price": 130,
+        "sportsbooks": [
+          "Unibet (Australia)",
+          "TABtouch"
+        ],
+        "deep_link_map": {
+          "Unibet (Australia)": {
+            "mobile": "https://au-au.unibet.com/betting/sports/event/1021042566",
+            "desktop": "https://au-au.unibet.com/betting/sports/event/1021042566",
+            "urls": {
+              "desktop": {
+                "url": "https://au-au.unibet.com/betting/sports/event/1021042566",
+                "adds_to_slip": false
+              },
+              "ios": {
+                "url": "https://au-au.unibet.com/betting/sports/event/1021042566",
+                "adds_to_slip": false
+              },
+              "android": {
+                "url": "https://au-au.unibet.com/betting/sports/event/1021042566",
+                "adds_to_slip": false
+              }
+            }
+          }
+        },
+        "pinny_no_vig_price": null,
+        "dangerous_text": null,
+        "edge_percent": null,
+        "price_boosted": null,
+        "rec_size": null,
+        "order": null
+      },
+      {
+        "bet_name": "Nikola Milenkovic Under 0.5",
+        "bet_points": "0.5",
+        "no_vig_price": -136.96128217346873,
+        "price": -125,
         "sportsbooks": [
           "bet365"
         ],
         "deep_link_map": {
           "bet365": {
             "mobile": "com.bet365.bet365NJ://dl/sportsbookredirect",
-            "desktop": "https://www.bet365.com.au/#/AC/B1/C1/D8/E162369644/F3/I5/",
+            "desktop": "https://www.bet365.com.au/#/AC/B1/C1/D8/E162368899/F3/I8/",
             "urls": {
               "desktop": {
-                "url": "https://www.bet365.com.au/#/AC/B1/C1/D8/E162369644/F3/I5/",
+                "url": "https://www.bet365.com.au/#/AC/B1/C1/D8/E162368899/F3/I8/",
                 "adds_to_slip": false
               },
               "ios": {
@@ -260,25 +762,9 @@
         },
         "pinny_no_vig_price": null,
         "dangerous_text": null,
-        "edge_percent": 5.61,
+        "edge_percent": 4.04,
         "price_boosted": null,
         "rec_size": 10,
-        "order": null
-      },
-      {
-        "bet_name": "Real Madrid CF Under 5.5",
-        "bet_points": "5.5",
-        "no_vig_price": 101.15988534850875,
-        "price": -109,
-        "sportsbooks": [
-          "GGBet"
-        ],
-        "deep_link_map": {},
-        "pinny_no_vig_price": null,
-        "dangerous_text": null,
-        "edge_percent": null,
-        "price_boosted": null,
-        "rec_size": null,
         "order": null
       }
     ],
@@ -290,101 +776,14 @@
     "home_score": null,
     "away_score": null,
     "sport": "Soccer",
-    "league": "Spain - La Liga",
-    "market": "Team Total Corners",
-    "market_width": 38,
-    "percentage": 5.61,
-    "start_date": "2024-10-19T19:00:00Z",
-    "home_team": "Real Club Celta de Vigo",
-    "away_team": "Real Madrid CF",
-    "timestamp": 1729077091.164671,
-    "status": "unplayed",
-    "bet_placed": false,
-    "same_market_bet_placed": false,
-    "same_game_bet_placed": false,
-    "rec_size": 10,
-    "cross_line_comparison": false
-  },
-  {
-    "id": "edge:12806-82789-24-42:total_points:over_34_5:under_34_5",
-    "bet_id": "edge:12806-82789-24-42:total_points:over_34_5:under_34_5",
-    "game_id": "12806-82789-24-42",
-    "distance": null,
-    "bets": [
-      {
-        "bet_name": "Over 34.5",
-        "bet_points": "34.5",
-        "no_vig_price": -162.51307664503935,
-        "price": -147,
-        "sportsbooks": [
-          "TAB"
-        ],
-        "deep_link_map": {},
-        "pinny_no_vig_price": null,
-        "dangerous_text": null,
-        "edge_percent": 4.02,
-        "price_boosted": null,
-        "rec_size": 10,
-        "order": null
-      },
-      {
-        "bet_name": "Under 34.5",
-        "bet_points": "34.5",
-        "no_vig_price": 162.5130766450394,
-        "price": 145,
-        "sportsbooks": [
-          "Neds",
-          "Ladbrokes (Australia)",
-          "betr (Australia)",
-          "Sportsbet",
-          "Unibet (Australia)",
-          "TAB (New Zealand)",
-          "TABtouch"
-        ],
-        "deep_link_map": {
-          "Unibet (Australia)": {
-            "mobile": "https://au-au.unibet.com/betting/sports/event/1020832197",
-            "desktop": "https://au-au.unibet.com/betting/sports/event/1020832197",
-            "urls": {
-              "desktop": {
-                "url": "https://au-au.unibet.com/betting/sports/event/1020832197",
-                "adds_to_slip": false
-              },
-              "ios": {
-                "url": "https://au-au.unibet.com/betting/sports/event/1020832197",
-                "adds_to_slip": false
-              },
-              "android": {
-                "url": "https://au-au.unibet.com/betting/sports/event/1020832197",
-                "adds_to_slip": false
-              }
-            }
-          }
-        },
-        "pinny_no_vig_price": null,
-        "dangerous_text": null,
-        "edge_percent": null,
-        "price_boosted": null,
-        "rec_size": null,
-        "order": null
-      }
-    ],
-    "is_live": false,
-    "in_game_status": null,
-    "period": null,
-    "clock": null,
-    "last_play": null,
-    "home_score": null,
-    "away_score": null,
-    "sport": "Football",
-    "league": "NFL",
-    "market": "Total Points",
-    "market_width": 68,
-    "percentage": 4.02,
-    "start_date": "2024-10-21T00:20:00Z",
-    "home_team": "Pittsburgh Steelers",
-    "away_team": "New York Jets",
-    "timestamp": 1729077364.1467948,
+    "league": "England - Premier League",
+    "market": "Player Shots",
+    "market_width": 35,
+    "percentage": 4.04,
+    "start_date": "2024-10-21T19:00:00Z",
+    "home_team": "Nottingham Forest FC",
+    "away_team": "Crystal Palace FC",
+    "timestamp": 1729421312.8079865,
     "status": "unplayed",
     "bet_placed": false,
     "same_market_bet_placed": false,

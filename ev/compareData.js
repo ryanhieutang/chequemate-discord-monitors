@@ -30,6 +30,17 @@ const sportsbookUrls = {
     "Neds": "https://www.neds.com.au/"
 };
 
+function getDeepLink(bet, sportsbook) {
+    // Check for a deep link in the bet's deep_link_map
+    if (bet.deep_link_map?.[sportsbook]?.desktop) {
+        return bet.deep_link_map[sportsbook].desktop;
+    } else if (bet.deep_link_map?.desktop) {
+        return bet.deep_link_map.desktop;
+    }
+    // Fall back to the default sportsbook URL if no deep link is found
+    return sportsbookUrls[sportsbook] || '#';
+}
+
 // Send a Discord message with custom color and text
 async function sendDiscordMessage(color, title, description) {
     const currentTime = new Date().toLocaleString(); // Get current time in local string format
@@ -77,7 +88,7 @@ async function sendToDiscord(newElement) {
 
     const betEmoji = sportsbookEmojis[highestEdgeBet.sportsbooks[0]] || ':grey_question:';
     const betAussieOdds = convertAmericanToAussieOdds(highestEdgeBet.price);
-    const betLink = highestEdgeBet.deep_link_map?.desktop || sportsbookUrls[highestEdgeBet.sportsbooks[0]] || '#';
+    const betLink = getDeepLink(highestEdgeBet, highestEdgeBet.sportsbooks[0]);
 
     const unitSize = calculateUnitSize(highestEdgeBet.rec_size);
 

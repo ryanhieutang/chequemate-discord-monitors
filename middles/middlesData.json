@@ -1,96 +1,15 @@
 [
   {
-    "id": "middle:16341-17324-24-42:point_spread:buffalo_bills_-18:tennessee_titans_+18_5",
-    "bet_id": "middle:16341-17324-24-42:point_spread:buffalo_bills_-18:tennessee_titans_+18_5",
-    "game_id": "16341-17324-24-42",
-    "distance": 0.5,
-    "bets": [
-      {
-        "bet_name": "Tennessee Titans +18.5",
-        "bet_points": "+18.5",
-        "no_vig_price": null,
-        "price": -312,
-        "sportsbooks": [
-          "Neds",
-          "Ladbrokes (Australia)"
-        ],
-        "deep_link_map": {},
-        "pinny_no_vig_price": null,
-        "dangerous_text": null,
-        "edge_percent": null,
-        "price_boosted": null,
-        "rec_size": null,
-        "order": null
-      },
-      {
-        "bet_name": "Buffalo Bills -18",
-        "bet_points": "-18",
-        "no_vig_price": null,
-        "price": 314,
-        "sportsbooks": [
-          "bet365"
-        ],
-        "deep_link_map": {
-          "bet365": {
-            "mobile": "com.bet365.bet365NJ://dl/sportsbookredirect",
-            "desktop": "https://www.bet365.com.au/#/AC/B12/C20426855/D19/E20919840/F19/I1/",
-            "urls": {
-              "desktop": {
-                "url": "https://www.bet365.com.au/#/AC/B12/C20426855/D19/E20919840/F19/I1/",
-                "adds_to_slip": false
-              },
-              "ios": {
-                "url": "com.bet365.bet365NJ://dl/sportsbookredirect",
-                "adds_to_slip": false
-              },
-              "android": {
-                "url": "com.bet365.bet365NJ://dl/sportsbookredirect",
-                "adds_to_slip": false
-              }
-            }
-          }
-        },
-        "pinny_no_vig_price": null,
-        "dangerous_text": null,
-        "edge_percent": null,
-        "price_boosted": null,
-        "rec_size": null,
-        "order": null
-      }
-    ],
-    "is_live": false,
-    "in_game_status": null,
-    "period": null,
-    "clock": null,
-    "last_play": null,
-    "home_score": null,
-    "away_score": null,
-    "sport": "Football",
-    "league": "NFL",
-    "market": "Point Spread",
-    "market_width": null,
-    "percentage": 0.12,
-    "start_date": "2024-10-20T17:00:00Z",
-    "home_team": "Buffalo Bills",
-    "away_team": "Tennessee Titans",
-    "timestamp": 1729077339.322609,
-    "status": "unplayed",
-    "bet_placed": false,
-    "same_market_bet_placed": false,
-    "same_game_bet_placed": false,
-    "cross_line_comparison": false
-  },
-  {
-    "id": "middle:18124-33320-24-42:1st_half_team_total:washington_commanders_over_22_5:washington_commanders_under_23_5",
-    "bet_id": "middle:18124-33320-24-42:1st_half_team_total:washington_commanders_over_22_5:washington_commanders_under_23_5",
+    "id": "middle:18124-33320-24-42:1st_quarter_team_total:washington_commanders_over_8_5:washington_commanders_under_9_5",
+    "bet_id": "middle:18124-33320-24-42:1st_quarter_team_total:washington_commanders_over_8_5:washington_commanders_under_9_5",
     "game_id": "18124-33320-24-42",
     "distance": 1,
     "bets": [
       {
-        "bet_name": "Washington Commanders Over 22.5",
-        "bet_points": "22.5",
+        "bet_name": "Washington Commanders Over 8.5",
+        "bet_points": "8.5",
         "no_vig_price": null,
-        "price": 400,
+        "price": 250,
         "sportsbooks": [
           "PointsBet (Australia)"
         ],
@@ -103,20 +22,20 @@
         "order": null
       },
       {
-        "bet_name": "Washington Commanders Under 23.5",
-        "bet_points": "23.5",
+        "bet_name": "Washington Commanders Under 9.5",
+        "bet_points": "9.5",
         "no_vig_price": null,
-        "price": -400,
+        "price": -230,
         "sportsbooks": [
           "bet365"
         ],
         "deep_link_map": {
           "bet365": {
             "mobile": "com.bet365.bet365NJ://dl/sportsbookredirect",
-            "desktop": "https://www.bet365.com.au/#/AC/B12/C20426855/D19/E20919847/F19/I4/",
+            "desktop": "https://www.bet365.com.au/#/AC/B12/C20426855/D19/E20919847/F19/I5/",
             "urls": {
               "desktop": {
-                "url": "https://www.bet365.com.au/#/AC/B12/C20426855/D19/E20919847/F19/I4/",
+                "url": "https://www.bet365.com.au/#/AC/B12/C20426855/D19/E20919847/F19/I5/",
                 "adds_to_slip": false
               },
               "ios": {
@@ -143,17 +62,257 @@
     "period": null,
     "clock": null,
     "last_play": null,
-    "home_score": null,
-    "away_score": null,
+    "home_score": 0,
+    "away_score": 0,
     "sport": "Football",
     "league": "NFL",
-    "market": "1st Half Team Total",
+    "market": "1st Quarter Team Total",
+    "market_width": null,
+    "percentage": 1.73,
+    "start_date": "2024-10-20T20:05:00Z",
+    "home_team": "Washington Commanders",
+    "away_team": "Carolina Panthers",
+    "timestamp": 1729421720.0597434,
+    "status": "unplayed",
+    "bet_placed": false,
+    "same_market_bet_placed": false,
+    "same_game_bet_placed": false,
+    "cross_line_comparison": false
+  },
+  {
+    "id": "middle:32889-25327-24-42:total_points:over_49_5:under_50",
+    "bet_id": "middle:32889-25327-24-42:total_points:over_49_5:under_50",
+    "game_id": "32889-25327-24-42",
+    "distance": 0.5,
+    "bets": [
+      {
+        "bet_name": "Over 49.5",
+        "bet_points": "49.5",
+        "no_vig_price": null,
+        "price": -130,
+        "sportsbooks": [
+          "PointsBet (Australia)"
+        ],
+        "deep_link_map": {},
+        "pinny_no_vig_price": null,
+        "dangerous_text": null,
+        "edge_percent": null,
+        "price_boosted": null,
+        "rec_size": null,
+        "order": null
+      },
+      {
+        "bet_name": "Under 50",
+        "bet_points": "50",
+        "no_vig_price": null,
+        "price": 132,
+        "sportsbooks": [
+          "bet365"
+        ],
+        "deep_link_map": {
+          "bet365": {
+            "mobile": "com.bet365.bet365NJ://dl/sportsbookredirect",
+            "desktop": "https://www.bet365.com.au/#/AC/B12/C20426855/D19/E20919839/F19/I1/",
+            "urls": {
+              "desktop": {
+                "url": "https://www.bet365.com.au/#/AC/B12/C20426855/D19/E20919839/F19/I1/",
+                "adds_to_slip": false
+              },
+              "ios": {
+                "url": "com.bet365.bet365NJ://dl/sportsbookredirect",
+                "adds_to_slip": false
+              },
+              "android": {
+                "url": "com.bet365.bet365NJ://dl/sportsbookredirect",
+                "adds_to_slip": false
+              }
+            }
+          }
+        },
+        "pinny_no_vig_price": 129,
+        "dangerous_text": null,
+        "edge_percent": null,
+        "price_boosted": null,
+        "rec_size": null,
+        "order": null
+      }
+    ],
+    "is_live": false,
+    "in_game_status": null,
+    "period": null,
+    "clock": null,
+    "last_play": null,
+    "home_score": 0,
+    "away_score": 0,
+    "sport": "Football",
+    "league": "NFL",
+    "market": "Total Points",
+    "market_width": null,
+    "percentage": 0.37,
+    "start_date": "2024-10-20T17:00:00Z",
+    "home_team": "Atlanta Falcons",
+    "away_team": "Seattle Seahawks",
+    "timestamp": 1729421610.463758,
+    "status": "unplayed",
+    "bet_placed": false,
+    "same_market_bet_placed": false,
+    "same_game_bet_placed": false,
+    "cross_line_comparison": false
+  },
+  {
+    "id": "middle:32889-25327-24-42:total_points:over_48_5:under_49",
+    "bet_id": "middle:32889-25327-24-42:total_points:over_48_5:under_49",
+    "game_id": "32889-25327-24-42",
+    "distance": 0.5,
+    "bets": [
+      {
+        "bet_name": "Over 48.5",
+        "bet_points": "48.5",
+        "no_vig_price": null,
+        "price": -145,
+        "sportsbooks": [
+          "PointsBet (Australia)"
+        ],
+        "deep_link_map": {},
+        "pinny_no_vig_price": null,
+        "dangerous_text": null,
+        "edge_percent": null,
+        "price_boosted": null,
+        "rec_size": null,
+        "order": null
+      },
+      {
+        "bet_name": "Under 49",
+        "bet_points": "49",
+        "no_vig_price": null,
+        "price": 147,
+        "sportsbooks": [
+          "bet365"
+        ],
+        "deep_link_map": {
+          "bet365": {
+            "mobile": "com.bet365.bet365NJ://dl/sportsbookredirect",
+            "desktop": "https://www.bet365.com.au/#/AC/B12/C20426855/D19/E20919839/F19/I1/",
+            "urls": {
+              "desktop": {
+                "url": "https://www.bet365.com.au/#/AC/B12/C20426855/D19/E20919839/F19/I1/",
+                "adds_to_slip": false
+              },
+              "ios": {
+                "url": "com.bet365.bet365NJ://dl/sportsbookredirect",
+                "adds_to_slip": false
+              },
+              "android": {
+                "url": "com.bet365.bet365NJ://dl/sportsbookredirect",
+                "adds_to_slip": false
+              }
+            }
+          }
+        },
+        "pinny_no_vig_price": null,
+        "dangerous_text": null,
+        "edge_percent": null,
+        "price_boosted": null,
+        "rec_size": null,
+        "order": null
+      }
+    ],
+    "is_live": false,
+    "in_game_status": null,
+    "period": null,
+    "clock": null,
+    "last_play": null,
+    "home_score": 0,
+    "away_score": 0,
+    "sport": "Football",
+    "league": "NFL",
+    "market": "Total Points",
+    "market_width": null,
+    "percentage": 0.33,
+    "start_date": "2024-10-20T17:00:00Z",
+    "home_team": "Atlanta Falcons",
+    "away_team": "Seattle Seahawks",
+    "timestamp": 1729421603.0695863,
+    "status": "unplayed",
+    "bet_placed": false,
+    "same_market_bet_placed": false,
+    "same_game_bet_placed": false,
+    "cross_line_comparison": false
+  },
+  {
+    "id": "middle:18124-33320-24-42:1st_quarter_team_total:carolina_panthers_over_0_5:carolina_panthers_under_2_5",
+    "bet_id": "middle:18124-33320-24-42:1st_quarter_team_total:carolina_panthers_over_0_5:carolina_panthers_under_2_5",
+    "game_id": "18124-33320-24-42",
+    "distance": 2,
+    "bets": [
+      {
+        "bet_name": "Carolina Panthers Over 0.5",
+        "bet_points": "0.5",
+        "no_vig_price": null,
+        "price": -125,
+        "sportsbooks": [
+          "bet365"
+        ],
+        "deep_link_map": {
+          "bet365": {
+            "mobile": "com.bet365.bet365NJ://dl/sportsbookredirect",
+            "desktop": "https://www.bet365.com.au/#/AC/B12/C20426855/D19/E20919847/F19/I5/",
+            "urls": {
+              "desktop": {
+                "url": "https://www.bet365.com.au/#/AC/B12/C20426855/D19/E20919847/F19/I5/",
+                "adds_to_slip": false
+              },
+              "ios": {
+                "url": "com.bet365.bet365NJ://dl/sportsbookredirect",
+                "adds_to_slip": false
+              },
+              "android": {
+                "url": "com.bet365.bet365NJ://dl/sportsbookredirect",
+                "adds_to_slip": false
+              }
+            }
+          }
+        },
+        "pinny_no_vig_price": null,
+        "dangerous_text": null,
+        "edge_percent": null,
+        "price_boosted": null,
+        "rec_size": null,
+        "order": null
+      },
+      {
+        "bet_name": "Carolina Panthers Under 2.5",
+        "bet_points": "2.5",
+        "no_vig_price": null,
+        "price": 125,
+        "sportsbooks": [
+          "PointsBet (Australia)"
+        ],
+        "deep_link_map": {},
+        "pinny_no_vig_price": null,
+        "dangerous_text": null,
+        "edge_percent": null,
+        "price_boosted": null,
+        "rec_size": null,
+        "order": null
+      }
+    ],
+    "is_live": false,
+    "in_game_status": null,
+    "period": null,
+    "clock": null,
+    "last_play": null,
+    "home_score": 0,
+    "away_score": 0,
+    "sport": "Football",
+    "league": "NFL",
+    "market": "1st Quarter Team Total",
     "market_width": null,
     "percentage": 0,
     "start_date": "2024-10-20T20:05:00Z",
     "home_team": "Washington Commanders",
     "away_team": "Carolina Panthers",
-    "timestamp": 1729077339.1044617,
+    "timestamp": 1729421720.033192,
     "status": "unplayed",
     "bet_placed": false,
     "same_market_bet_placed": false,
@@ -161,16 +320,96 @@
     "cross_line_comparison": false
   },
   {
-    "id": "middle:18124-33320-24-42:point_spread:carolina_panthers_+19_5:washington_commanders_-19",
-    "bet_id": "middle:18124-33320-24-42:point_spread:carolina_panthers_+19_5:washington_commanders_-19",
-    "game_id": "18124-33320-24-42",
-    "distance": 0.5,
+    "id": "middle:18821-42288-24-43:1st_quarter_total_points:over_7_5:under_8_5",
+    "bet_id": "middle:18821-42288-24-43:1st_quarter_total_points:over_7_5:under_8_5",
+    "game_id": "18821-42288-24-43",
+    "distance": 1,
     "bets": [
       {
-        "bet_name": "Carolina Panthers +19.5",
-        "bet_points": "+19.5",
+        "bet_name": "Over 7.5",
+        "bet_points": "7.5",
         "no_vig_price": null,
-        "price": -417,
+        "price": -160,
+        "sportsbooks": [
+          "bet365"
+        ],
+        "deep_link_map": {
+          "bet365": {
+            "mobile": "com.bet365.bet365NJ://dl/sportsbookredirect",
+            "desktop": "https://www.bet365.com.au/#/AC/B12/C20426855/D19/E20919859/F19/I5/",
+            "urls": {
+              "desktop": {
+                "url": "https://www.bet365.com.au/#/AC/B12/C20426855/D19/E20919859/F19/I5/",
+                "adds_to_slip": false
+              },
+              "ios": {
+                "url": "com.bet365.bet365NJ://dl/sportsbookredirect",
+                "adds_to_slip": false
+              },
+              "android": {
+                "url": "com.bet365.bet365NJ://dl/sportsbookredirect",
+                "adds_to_slip": false
+              }
+            }
+          }
+        },
+        "pinny_no_vig_price": null,
+        "dangerous_text": null,
+        "edge_percent": null,
+        "price_boosted": null,
+        "rec_size": null,
+        "order": null
+      },
+      {
+        "bet_name": "Under 8.5",
+        "bet_points": "8.5",
+        "no_vig_price": null,
+        "price": 160,
+        "sportsbooks": [
+          "PointsBet (Australia)"
+        ],
+        "deep_link_map": {},
+        "pinny_no_vig_price": null,
+        "dangerous_text": null,
+        "edge_percent": null,
+        "price_boosted": null,
+        "rec_size": null,
+        "order": null
+      }
+    ],
+    "is_live": false,
+    "in_game_status": null,
+    "period": null,
+    "clock": null,
+    "last_play": null,
+    "home_score": null,
+    "away_score": null,
+    "sport": "Football",
+    "league": "NFL",
+    "market": "1st Quarter Total Points",
+    "market_width": null,
+    "percentage": 0,
+    "start_date": "2024-10-22T00:15:00Z",
+    "home_team": "Tampa Bay Buccaneers",
+    "away_team": "Baltimore Ravens",
+    "timestamp": 1729421789.0424662,
+    "status": "unplayed",
+    "bet_placed": false,
+    "same_market_bet_placed": false,
+    "same_game_bet_placed": false,
+    "cross_line_comparison": false
+  },
+  {
+    "id": "middle:32889-25327-24-42:1st_quarter_team_total:atlanta_falcons_over_8_5:atlanta_falcons_under_9_5",
+    "bet_id": "middle:32889-25327-24-42:1st_quarter_team_total:atlanta_falcons_over_8_5:atlanta_falcons_under_9_5",
+    "game_id": "32889-25327-24-42",
+    "distance": 1,
+    "bets": [
+      {
+        "bet_name": "Atlanta Falcons Over 8.5",
+        "bet_points": "8.5",
+        "no_vig_price": null,
+        "price": 375,
         "sportsbooks": [
           "PointsBet (Australia)"
         ],
@@ -183,10 +422,154 @@
         "order": null
       },
       {
-        "bet_name": "Washington Commanders -19",
-        "bet_points": "-19",
+        "bet_name": "Atlanta Falcons Under 9.5",
+        "bet_points": "9.5",
         "no_vig_price": null,
-        "price": 400,
+        "price": -380,
+        "sportsbooks": [
+          "bet365"
+        ],
+        "deep_link_map": {
+          "bet365": {
+            "mobile": "com.bet365.bet365NJ://dl/sportsbookredirect",
+            "desktop": "https://www.bet365.com.au/#/AC/B12/C20426855/D19/E20919839/F19/I5/",
+            "urls": {
+              "desktop": {
+                "url": "https://www.bet365.com.au/#/AC/B12/C20426855/D19/E20919839/F19/I5/",
+                "adds_to_slip": false
+              },
+              "ios": {
+                "url": "com.bet365.bet365NJ://dl/sportsbookredirect",
+                "adds_to_slip": false
+              },
+              "android": {
+                "url": "com.bet365.bet365NJ://dl/sportsbookredirect",
+                "adds_to_slip": false
+              }
+            }
+          }
+        },
+        "pinny_no_vig_price": null,
+        "dangerous_text": null,
+        "edge_percent": null,
+        "price_boosted": null,
+        "rec_size": null,
+        "order": null
+      }
+    ],
+    "is_live": false,
+    "in_game_status": null,
+    "period": null,
+    "clock": null,
+    "last_play": null,
+    "home_score": 0,
+    "away_score": 0,
+    "sport": "Football",
+    "league": "NFL",
+    "market": "1st Quarter Team Total",
+    "market_width": null,
+    "percentage": -0.22,
+    "start_date": "2024-10-20T17:00:00Z",
+    "home_team": "Atlanta Falcons",
+    "away_team": "Seattle Seahawks",
+    "timestamp": 1729421270.7463145,
+    "status": "unplayed",
+    "bet_placed": false,
+    "same_market_bet_placed": false,
+    "same_game_bet_placed": false,
+    "cross_line_comparison": false
+  },
+  {
+    "id": "middle:16341-17324-24-42:player_receiving_yards:keon_coleman_over_24_5:keon_coleman_under_25_5",
+    "bet_id": "middle:16341-17324-24-42:player_receiving_yards:keon_coleman_over_24_5:keon_coleman_under_25_5",
+    "game_id": "16341-17324-24-42",
+    "distance": 1,
+    "bets": [
+      {
+        "bet_name": "Keon Coleman Over 24.5",
+        "bet_points": "24.5",
+        "no_vig_price": null,
+        "price": 110,
+        "sportsbooks": [
+          "bet365"
+        ],
+        "deep_link_map": {
+          "bet365": {
+            "mobile": "com.bet365.bet365NJ://dl/sportsbookredirect",
+            "desktop": "https://www.bet365.com.au/#/AC/B12/C20426855/D19/E20919840/F19/I7/",
+            "urls": {
+              "desktop": {
+                "url": "https://www.bet365.com.au/#/AC/B12/C20426855/D19/E20919840/F19/I7/",
+                "adds_to_slip": false
+              },
+              "ios": {
+                "url": "com.bet365.bet365NJ://dl/sportsbookredirect",
+                "adds_to_slip": false
+              },
+              "android": {
+                "url": "com.bet365.bet365NJ://dl/sportsbookredirect",
+                "adds_to_slip": false
+              }
+            }
+          }
+        },
+        "pinny_no_vig_price": null,
+        "dangerous_text": null,
+        "edge_percent": null,
+        "price_boosted": null,
+        "rec_size": null,
+        "order": null
+      },
+      {
+        "bet_name": "Keon Coleman Under 25.5",
+        "bet_points": "25.5",
+        "no_vig_price": null,
+        "price": -111,
+        "sportsbooks": [
+          "Sportsbet"
+        ],
+        "deep_link_map": {},
+        "pinny_no_vig_price": null,
+        "dangerous_text": null,
+        "edge_percent": null,
+        "price_boosted": null,
+        "rec_size": null,
+        "order": null
+      }
+    ],
+    "is_live": false,
+    "in_game_status": null,
+    "period": null,
+    "clock": null,
+    "last_play": null,
+    "home_score": 0,
+    "away_score": 0,
+    "sport": "Football",
+    "league": "NFL",
+    "market": "Player Receiving Yards",
+    "market_width": null,
+    "percentage": -0.23,
+    "start_date": "2024-10-20T17:00:00Z",
+    "home_team": "Buffalo Bills",
+    "away_team": "Tennessee Titans",
+    "timestamp": 1729421761.3892164,
+    "status": "unplayed",
+    "bet_placed": false,
+    "same_market_bet_placed": false,
+    "same_game_bet_placed": false,
+    "cross_line_comparison": false
+  },
+  {
+    "id": "middle:12806-82789-24-42:player_receiving_yards:jaylen_warren_over_11_5:jaylen_warren_under_12_5",
+    "bet_id": "middle:12806-82789-24-42:player_receiving_yards:jaylen_warren_over_11_5:jaylen_warren_under_12_5",
+    "game_id": "12806-82789-24-42",
+    "distance": 1,
+    "bets": [
+      {
+        "bet_name": "Jaylen Warren Over 11.5",
+        "bet_points": "11.5",
+        "no_vig_price": null,
+        "price": -112,
         "sportsbooks": [
           "TABtouch"
         ],
@@ -197,67 +580,22 @@
         "price_boosted": null,
         "rec_size": null,
         "order": null
-      }
-    ],
-    "is_live": false,
-    "in_game_status": null,
-    "period": null,
-    "clock": null,
-    "last_play": null,
-    "home_score": null,
-    "away_score": null,
-    "sport": "Football",
-    "league": "NFL",
-    "market": "Point Spread",
-    "market_width": null,
-    "percentage": -0.66,
-    "start_date": "2024-10-20T20:05:00Z",
-    "home_team": "Washington Commanders",
-    "away_team": "Carolina Panthers",
-    "timestamp": 1729077359.8560028,
-    "status": "unplayed",
-    "bet_placed": false,
-    "same_market_bet_placed": false,
-    "same_game_bet_placed": false,
-    "cross_line_comparison": false
-  },
-  {
-    "id": "middle:18821-42288-24-43:1st_half_team_total:baltimore_ravens_over_18_5:baltimore_ravens_under_19_5",
-    "bet_id": "middle:18821-42288-24-43:1st_half_team_total:baltimore_ravens_over_18_5:baltimore_ravens_under_19_5",
-    "game_id": "18821-42288-24-43",
-    "distance": 1,
-    "bets": [
-      {
-        "bet_name": "Baltimore Ravens Over 18.5",
-        "bet_points": "18.5",
-        "no_vig_price": null,
-        "price": 280,
-        "sportsbooks": [
-          "PointsBet (Australia)"
-        ],
-        "deep_link_map": {},
-        "pinny_no_vig_price": null,
-        "dangerous_text": null,
-        "edge_percent": null,
-        "price_boosted": null,
-        "rec_size": null,
-        "order": null
       },
       {
-        "bet_name": "Baltimore Ravens Under 19.5",
-        "bet_points": "19.5",
+        "bet_name": "Jaylen Warren Under 12.5",
+        "bet_points": "12.5",
         "no_vig_price": null,
-        "price": -290,
+        "price": 110,
         "sportsbooks": [
           "bet365"
         ],
         "deep_link_map": {
           "bet365": {
             "mobile": "com.bet365.bet365NJ://dl/sportsbookredirect",
-            "desktop": "https://www.bet365.com.au/#/AC/B12/C20426855/D19/E20919859/F19/I4/",
+            "desktop": "https://www.bet365.com.au/#/AC/B12/C20426855/D19/E20919851/F19/I7/",
             "urls": {
               "desktop": {
-                "url": "https://www.bet365.com.au/#/AC/B12/C20426855/D19/E20919859/F19/I4/",
+                "url": "https://www.bet365.com.au/#/AC/B12/C20426855/D19/E20919851/F19/I7/",
                 "adds_to_slip": false
               },
               "ios": {
@@ -288,13 +626,413 @@
     "away_score": null,
     "sport": "Football",
     "league": "NFL",
+    "market": "Player Receiving Yards",
+    "market_width": null,
+    "percentage": -0.45,
+    "start_date": "2024-10-21T00:20:00Z",
+    "home_team": "Pittsburgh Steelers",
+    "away_team": "New York Jets",
+    "timestamp": 1729421668.5799165,
+    "status": "unplayed",
+    "bet_placed": false,
+    "same_market_bet_placed": false,
+    "same_game_bet_placed": false,
+    "cross_line_comparison": false
+  },
+  {
+    "id": "middle:28265-37240-24-42:1st_half_team_total:jacksonville_jaguars_over_18_5:jacksonville_jaguars_under_19_5",
+    "bet_id": "middle:28265-37240-24-42:1st_half_team_total:jacksonville_jaguars_over_18_5:jacksonville_jaguars_under_19_5",
+    "game_id": "28265-37240-24-42",
+    "distance": 1,
+    "bets": [
+      {
+        "bet_name": "Jacksonville Jaguars Over 18.5",
+        "bet_points": "18.5",
+        "no_vig_price": null,
+        "price": 350,
+        "sportsbooks": [
+          "PointsBet (Australia)"
+        ],
+        "deep_link_map": {},
+        "pinny_no_vig_price": null,
+        "dangerous_text": null,
+        "edge_percent": null,
+        "price_boosted": null,
+        "rec_size": null,
+        "order": null
+      },
+      {
+        "bet_name": "Jacksonville Jaguars Under 19.5",
+        "bet_points": "19.5",
+        "no_vig_price": null,
+        "price": -360,
+        "sportsbooks": [
+          "bet365"
+        ],
+        "deep_link_map": {
+          "bet365": {
+            "mobile": "com.bet365.bet365NJ://dl/sportsbookredirect",
+            "desktop": "https://www.bet365.com.au/#/AC/B12/C20426855/D19/E20966333/F19/I4/",
+            "urls": {
+              "desktop": {
+                "url": "https://www.bet365.com.au/#/AC/B12/C20426855/D19/E20966333/F19/I4/",
+                "adds_to_slip": false
+              },
+              "ios": {
+                "url": "com.bet365.bet365NJ://dl/sportsbookredirect",
+                "adds_to_slip": false
+              },
+              "android": {
+                "url": "com.bet365.bet365NJ://dl/sportsbookredirect",
+                "adds_to_slip": false
+              }
+            }
+          }
+        },
+        "pinny_no_vig_price": null,
+        "dangerous_text": null,
+        "edge_percent": null,
+        "price_boosted": null,
+        "rec_size": null,
+        "order": null
+      }
+    ],
+    "is_live": false,
+    "in_game_status": null,
+    "period": null,
+    "clock": null,
+    "last_play": null,
+    "home_score": 0,
+    "away_score": 0,
+    "sport": "Football",
+    "league": "NFL",
     "market": "1st Half Team Total",
     "market_width": null,
-    "percentage": -0.67,
+    "percentage": -0.48,
+    "start_date": "2024-10-20T13:30:00Z",
+    "home_team": "Jacksonville Jaguars",
+    "away_team": "New England Patriots",
+    "timestamp": 1729421794.9222393,
+    "status": "unplayed",
+    "bet_placed": false,
+    "same_market_bet_placed": false,
+    "same_game_bet_placed": false,
+    "cross_line_comparison": false
+  },
+  {
+    "id": "middle:37430-17233-24-42:1st_quarter_total_points:over_0_5:under_2_5",
+    "bet_id": "middle:37430-17233-24-42:1st_quarter_total_points:over_0_5:under_2_5",
+    "game_id": "37430-17233-24-42",
+    "distance": 2,
+    "bets": [
+      {
+        "bet_name": "Over 0.5",
+        "bet_points": "0.5",
+        "no_vig_price": null,
+        "price": -700,
+        "sportsbooks": [
+          "bet365"
+        ],
+        "deep_link_map": {
+          "bet365": {
+            "mobile": "com.bet365.bet365NJ://dl/sportsbookredirect",
+            "desktop": "https://www.bet365.com.au/#/AC/B12/C20426855/D19/E20919845/F19/I5/",
+            "urls": {
+              "desktop": {
+                "url": "https://www.bet365.com.au/#/AC/B12/C20426855/D19/E20919845/F19/I5/",
+                "adds_to_slip": false
+              },
+              "ios": {
+                "url": "com.bet365.bet365NJ://dl/sportsbookredirect",
+                "adds_to_slip": false
+              },
+              "android": {
+                "url": "com.bet365.bet365NJ://dl/sportsbookredirect",
+                "adds_to_slip": false
+              }
+            }
+          }
+        },
+        "pinny_no_vig_price": null,
+        "dangerous_text": null,
+        "edge_percent": null,
+        "price_boosted": null,
+        "rec_size": null,
+        "order": null
+      },
+      {
+        "bet_name": "Under 2.5",
+        "bet_points": "2.5",
+        "no_vig_price": null,
+        "price": 650,
+        "sportsbooks": [
+          "PointsBet (Australia)"
+        ],
+        "deep_link_map": {},
+        "pinny_no_vig_price": null,
+        "dangerous_text": null,
+        "edge_percent": null,
+        "price_boosted": null,
+        "rec_size": null,
+        "order": null
+      }
+    ],
+    "is_live": false,
+    "in_game_status": null,
+    "period": null,
+    "clock": null,
+    "last_play": null,
+    "home_score": 0,
+    "away_score": 0,
+    "sport": "Football",
+    "league": "NFL",
+    "market": "1st Quarter Total Points",
+    "market_width": null,
+    "percentage": -0.83,
+    "start_date": "2024-10-20T17:00:00Z",
+    "home_team": "New York Giants",
+    "away_team": "Philadelphia Eagles",
+    "timestamp": 1729421748.5915563,
+    "status": "unplayed",
+    "bet_placed": false,
+    "same_market_bet_placed": false,
+    "same_game_bet_placed": false,
+    "cross_line_comparison": false
+  },
+  {
+    "id": "middle:32889-25327-24-42:total_points:over_48_5:under_49_5",
+    "bet_id": "middle:32889-25327-24-42:total_points:over_48_5:under_49_5",
+    "game_id": "32889-25327-24-42",
+    "distance": 1,
+    "bets": [
+      {
+        "bet_name": "Over 48.5",
+        "bet_points": "48.5",
+        "no_vig_price": null,
+        "price": -145,
+        "sportsbooks": [
+          "PointsBet (Australia)"
+        ],
+        "deep_link_map": {},
+        "pinny_no_vig_price": null,
+        "dangerous_text": null,
+        "edge_percent": null,
+        "price_boosted": null,
+        "rec_size": null,
+        "order": null
+      },
+      {
+        "bet_name": "Under 49.5",
+        "bet_points": "49.5",
+        "no_vig_price": null,
+        "price": 140,
+        "sportsbooks": [
+          "bet365"
+        ],
+        "deep_link_map": {
+          "bet365": {
+            "mobile": "com.bet365.bet365NJ://dl/sportsbookredirect",
+            "desktop": "https://www.bet365.com.au/#/AC/B12/C20426855/D19/E20919839/F19/I1/",
+            "urls": {
+              "desktop": {
+                "url": "https://www.bet365.com.au/#/AC/B12/C20426855/D19/E20919839/F19/I1/",
+                "adds_to_slip": false
+              },
+              "ios": {
+                "url": "com.bet365.bet365NJ://dl/sportsbookredirect",
+                "adds_to_slip": false
+              },
+              "android": {
+                "url": "com.bet365.bet365NJ://dl/sportsbookredirect",
+                "adds_to_slip": false
+              }
+            }
+          }
+        },
+        "pinny_no_vig_price": null,
+        "dangerous_text": null,
+        "edge_percent": null,
+        "price_boosted": null,
+        "rec_size": null,
+        "order": null
+      }
+    ],
+    "is_live": false,
+    "in_game_status": null,
+    "period": null,
+    "clock": null,
+    "last_play": null,
+    "home_score": 0,
+    "away_score": 0,
+    "sport": "Football",
+    "league": "NFL",
+    "market": "Total Points",
+    "market_width": null,
+    "percentage": -0.85,
+    "start_date": "2024-10-20T17:00:00Z",
+    "home_team": "Atlanta Falcons",
+    "away_team": "Seattle Seahawks",
+    "timestamp": 1729421597.9623494,
+    "status": "unplayed",
+    "bet_placed": false,
+    "same_market_bet_placed": false,
+    "same_game_bet_placed": false,
+    "cross_line_comparison": false
+  },
+  {
+    "id": "middle:21473-37797-24-42:1st_quarter_total_points:over_7_5:under_8_5",
+    "bet_id": "middle:21473-37797-24-42:1st_quarter_total_points:over_7_5:under_8_5",
+    "game_id": "21473-37797-24-42",
+    "distance": 1,
+    "bets": [
+      {
+        "bet_name": "Over 7.5",
+        "bet_points": "7.5",
+        "no_vig_price": null,
+        "price": -145,
+        "sportsbooks": [
+          "bet365"
+        ],
+        "deep_link_map": {
+          "bet365": {
+            "mobile": "com.bet365.bet365NJ://dl/sportsbookredirect",
+            "desktop": "https://www.bet365.com.au/#/AC/B12/C20426855/D19/E20919844/F19/I5/",
+            "urls": {
+              "desktop": {
+                "url": "https://www.bet365.com.au/#/AC/B12/C20426855/D19/E20919844/F19/I5/",
+                "adds_to_slip": false
+              },
+              "ios": {
+                "url": "com.bet365.bet365NJ://dl/sportsbookredirect",
+                "adds_to_slip": false
+              },
+              "android": {
+                "url": "com.bet365.bet365NJ://dl/sportsbookredirect",
+                "adds_to_slip": false
+              }
+            }
+          }
+        },
+        "pinny_no_vig_price": null,
+        "dangerous_text": null,
+        "edge_percent": null,
+        "price_boosted": null,
+        "rec_size": null,
+        "order": null
+      },
+      {
+        "bet_name": "Under 8.5",
+        "bet_points": "8.5",
+        "no_vig_price": null,
+        "price": 140,
+        "sportsbooks": [
+          "PointsBet (Australia)"
+        ],
+        "deep_link_map": {},
+        "pinny_no_vig_price": null,
+        "dangerous_text": null,
+        "edge_percent": null,
+        "price_boosted": null,
+        "rec_size": null,
+        "order": null
+      }
+    ],
+    "is_live": false,
+    "in_game_status": null,
+    "period": null,
+    "clock": null,
+    "last_play": null,
+    "home_score": 0,
+    "away_score": 0,
+    "sport": "Football",
+    "league": "NFL",
+    "market": "1st Quarter Total Points",
+    "market_width": null,
+    "percentage": -0.85,
+    "start_date": "2024-10-20T17:00:00Z",
+    "home_team": "Minnesota Vikings",
+    "away_team": "Detroit Lions",
+    "timestamp": 1729421628.5643315,
+    "status": "unplayed",
+    "bet_placed": false,
+    "same_market_bet_placed": false,
+    "same_game_bet_placed": false,
+    "cross_line_comparison": false
+  },
+  {
+    "id": "middle:18821-42288-24-43:1st_quarter_total_points:over_3_5:under_4_5",
+    "bet_id": "middle:18821-42288-24-43:1st_quarter_total_points:over_3_5:under_4_5",
+    "game_id": "18821-42288-24-43",
+    "distance": 1,
+    "bets": [
+      {
+        "bet_name": "Over 3.5",
+        "bet_points": "3.5",
+        "no_vig_price": null,
+        "price": -450,
+        "sportsbooks": [
+          "bet365"
+        ],
+        "deep_link_map": {
+          "bet365": {
+            "mobile": "com.bet365.bet365NJ://dl/sportsbookredirect",
+            "desktop": "https://www.bet365.com.au/#/AC/B12/C20426855/D19/E20919859/F19/I5/",
+            "urls": {
+              "desktop": {
+                "url": "https://www.bet365.com.au/#/AC/B12/C20426855/D19/E20919859/F19/I5/",
+                "adds_to_slip": false
+              },
+              "ios": {
+                "url": "com.bet365.bet365NJ://dl/sportsbookredirect",
+                "adds_to_slip": false
+              },
+              "android": {
+                "url": "com.bet365.bet365NJ://dl/sportsbookredirect",
+                "adds_to_slip": false
+              }
+            }
+          }
+        },
+        "pinny_no_vig_price": null,
+        "dangerous_text": null,
+        "edge_percent": null,
+        "price_boosted": null,
+        "rec_size": null,
+        "order": null
+      },
+      {
+        "bet_name": "Under 4.5",
+        "bet_points": "4.5",
+        "no_vig_price": null,
+        "price": 425,
+        "sportsbooks": [
+          "PointsBet (Australia)"
+        ],
+        "deep_link_map": {},
+        "pinny_no_vig_price": null,
+        "dangerous_text": null,
+        "edge_percent": null,
+        "price_boosted": null,
+        "rec_size": null,
+        "order": null
+      }
+    ],
+    "is_live": false,
+    "in_game_status": null,
+    "period": null,
+    "clock": null,
+    "last_play": null,
+    "home_score": null,
+    "away_score": null,
+    "sport": "Football",
+    "league": "NFL",
+    "market": "1st Quarter Total Points",
+    "market_width": null,
+    "percentage": -0.87,
     "start_date": "2024-10-22T00:15:00Z",
     "home_team": "Tampa Bay Buccaneers",
     "away_team": "Baltimore Ravens",
-    "timestamp": 1729077325.5574903,
+    "timestamp": 1729421788.8530984,
     "status": "unplayed",
     "bet_placed": false,
     "same_market_bet_placed": false,
@@ -364,8 +1102,8 @@
     "period": null,
     "clock": null,
     "last_play": null,
-    "home_score": null,
-    "away_score": null,
+    "home_score": 0,
+    "away_score": 0,
     "sport": "Football",
     "league": "NFL",
     "market": "1st Quarter Total Points",
@@ -374,7 +1112,327 @@
     "start_date": "2024-10-20T20:05:00Z",
     "home_team": "Washington Commanders",
     "away_team": "Carolina Panthers",
-    "timestamp": 1729077110.286162,
+    "timestamp": 1729421720.506285,
+    "status": "unplayed",
+    "bet_placed": false,
+    "same_market_bet_placed": false,
+    "same_game_bet_placed": false,
+    "cross_line_comparison": false
+  },
+  {
+    "id": "middle:21473-37797-24-42:1st_quarter_total_points:over_3_5:under_4_5",
+    "bet_id": "middle:21473-37797-24-42:1st_quarter_total_points:over_3_5:under_4_5",
+    "game_id": "21473-37797-24-42",
+    "distance": 1,
+    "bets": [
+      {
+        "bet_name": "Over 3.5",
+        "bet_points": "3.5",
+        "no_vig_price": null,
+        "price": -450,
+        "sportsbooks": [
+          "bet365"
+        ],
+        "deep_link_map": {
+          "bet365": {
+            "mobile": "com.bet365.bet365NJ://dl/sportsbookredirect",
+            "desktop": "https://www.bet365.com.au/#/AC/B12/C20426855/D19/E20919844/F19/I5/",
+            "urls": {
+              "desktop": {
+                "url": "https://www.bet365.com.au/#/AC/B12/C20426855/D19/E20919844/F19/I5/",
+                "adds_to_slip": false
+              },
+              "ios": {
+                "url": "com.bet365.bet365NJ://dl/sportsbookredirect",
+                "adds_to_slip": false
+              },
+              "android": {
+                "url": "com.bet365.bet365NJ://dl/sportsbookredirect",
+                "adds_to_slip": false
+              }
+            }
+          }
+        },
+        "pinny_no_vig_price": null,
+        "dangerous_text": null,
+        "edge_percent": null,
+        "price_boosted": null,
+        "rec_size": null,
+        "order": null
+      },
+      {
+        "bet_name": "Under 4.5",
+        "bet_points": "4.5",
+        "no_vig_price": null,
+        "price": 425,
+        "sportsbooks": [
+          "PointsBet (Australia)"
+        ],
+        "deep_link_map": {},
+        "pinny_no_vig_price": null,
+        "dangerous_text": null,
+        "edge_percent": null,
+        "price_boosted": null,
+        "rec_size": null,
+        "order": null
+      }
+    ],
+    "is_live": false,
+    "in_game_status": null,
+    "period": null,
+    "clock": null,
+    "last_play": null,
+    "home_score": 0,
+    "away_score": 0,
+    "sport": "Football",
+    "league": "NFL",
+    "market": "1st Quarter Total Points",
+    "market_width": null,
+    "percentage": -0.87,
+    "start_date": "2024-10-20T17:00:00Z",
+    "home_team": "Minnesota Vikings",
+    "away_team": "Detroit Lions",
+    "timestamp": 1729421628.4672797,
+    "status": "unplayed",
+    "bet_placed": false,
+    "same_market_bet_placed": false,
+    "same_game_bet_placed": false,
+    "cross_line_comparison": false
+  },
+  {
+    "id": "middle:40716-22677-24-42:1st_half_team_total:indianapolis_colts_over_18_5:indianapolis_colts_under_19_5",
+    "bet_id": "middle:40716-22677-24-42:1st_half_team_total:indianapolis_colts_over_18_5:indianapolis_colts_under_19_5",
+    "game_id": "40716-22677-24-42",
+    "distance": 1,
+    "bets": [
+      {
+        "bet_name": "Indianapolis Colts Over 18.5",
+        "bet_points": "18.5",
+        "no_vig_price": null,
+        "price": 425,
+        "sportsbooks": [
+          "PointsBet (Australia)"
+        ],
+        "deep_link_map": {},
+        "pinny_no_vig_price": null,
+        "dangerous_text": null,
+        "edge_percent": null,
+        "price_boosted": null,
+        "rec_size": null,
+        "order": null
+      },
+      {
+        "bet_name": "Indianapolis Colts Under 19.5",
+        "bet_points": "19.5",
+        "no_vig_price": null,
+        "price": -450,
+        "sportsbooks": [
+          "bet365"
+        ],
+        "deep_link_map": {
+          "bet365": {
+            "mobile": "com.bet365.bet365NJ://dl/sportsbookredirect",
+            "desktop": "https://www.bet365.com.au/#/AC/B12/C20426855/D19/E20919843/F19/I4/",
+            "urls": {
+              "desktop": {
+                "url": "https://www.bet365.com.au/#/AC/B12/C20426855/D19/E20919843/F19/I4/",
+                "adds_to_slip": false
+              },
+              "ios": {
+                "url": "com.bet365.bet365NJ://dl/sportsbookredirect",
+                "adds_to_slip": false
+              },
+              "android": {
+                "url": "com.bet365.bet365NJ://dl/sportsbookredirect",
+                "adds_to_slip": false
+              }
+            }
+          }
+        },
+        "pinny_no_vig_price": null,
+        "dangerous_text": null,
+        "edge_percent": null,
+        "price_boosted": null,
+        "rec_size": null,
+        "order": null
+      }
+    ],
+    "is_live": false,
+    "in_game_status": null,
+    "period": null,
+    "clock": null,
+    "last_play": null,
+    "home_score": 0,
+    "away_score": 0,
+    "sport": "Football",
+    "league": "NFL",
+    "market": "1st Half Team Total",
+    "market_width": null,
+    "percentage": -0.87,
+    "start_date": "2024-10-20T17:00:00Z",
+    "home_team": "Indianapolis Colts",
+    "away_team": "Miami Dolphins",
+    "timestamp": 1729421314.089501,
+    "status": "unplayed",
+    "bet_placed": false,
+    "same_market_bet_placed": false,
+    "same_game_bet_placed": false,
+    "cross_line_comparison": false
+  },
+  {
+    "id": "middle:40716-22677-24-42:1st_half_total_points:over_32_5:under_33_5",
+    "bet_id": "middle:40716-22677-24-42:1st_half_total_points:over_32_5:under_33_5",
+    "game_id": "40716-22677-24-42",
+    "distance": 1,
+    "bets": [
+      {
+        "bet_name": "Over 32.5",
+        "bet_points": "32.5",
+        "no_vig_price": null,
+        "price": 600,
+        "sportsbooks": [
+          "PointsBet (Australia)"
+        ],
+        "deep_link_map": {},
+        "pinny_no_vig_price": null,
+        "dangerous_text": null,
+        "edge_percent": null,
+        "price_boosted": null,
+        "rec_size": null,
+        "order": null
+      },
+      {
+        "bet_name": "Under 33.5",
+        "bet_points": "33.5",
+        "no_vig_price": null,
+        "price": -650,
+        "sportsbooks": [
+          "bet365"
+        ],
+        "deep_link_map": {
+          "bet365": {
+            "mobile": "com.bet365.bet365NJ://dl/sportsbookredirect",
+            "desktop": "https://www.bet365.com.au/#/AC/B12/C20426855/D19/E20919843/F19/I4/",
+            "urls": {
+              "desktop": {
+                "url": "https://www.bet365.com.au/#/AC/B12/C20426855/D19/E20919843/F19/I4/",
+                "adds_to_slip": false
+              },
+              "ios": {
+                "url": "com.bet365.bet365NJ://dl/sportsbookredirect",
+                "adds_to_slip": false
+              },
+              "android": {
+                "url": "com.bet365.bet365NJ://dl/sportsbookredirect",
+                "adds_to_slip": false
+              }
+            }
+          }
+        },
+        "pinny_no_vig_price": null,
+        "dangerous_text": null,
+        "edge_percent": null,
+        "price_boosted": null,
+        "rec_size": null,
+        "order": null
+      }
+    ],
+    "is_live": false,
+    "in_game_status": null,
+    "period": null,
+    "clock": null,
+    "last_play": null,
+    "home_score": 0,
+    "away_score": 0,
+    "sport": "Football",
+    "league": "NFL",
+    "market": "1st Half Total Points",
+    "market_width": null,
+    "percentage": -0.95,
+    "start_date": "2024-10-20T17:00:00Z",
+    "home_team": "Indianapolis Colts",
+    "away_team": "Miami Dolphins",
+    "timestamp": 1729421630.1866584,
+    "status": "unplayed",
+    "bet_placed": false,
+    "same_market_bet_placed": false,
+    "same_game_bet_placed": false,
+    "cross_line_comparison": false
+  },
+  {
+    "id": "middle:32889-25327-24-42:total_points:over_47_5:under_48",
+    "bet_id": "middle:32889-25327-24-42:total_points:over_47_5:under_48",
+    "game_id": "32889-25327-24-42",
+    "distance": 0.5,
+    "bets": [
+      {
+        "bet_name": "Over 47.5",
+        "bet_points": "47.5",
+        "no_vig_price": null,
+        "price": -169,
+        "sportsbooks": [
+          "PointsBet (Australia)"
+        ],
+        "deep_link_map": {},
+        "pinny_no_vig_price": null,
+        "dangerous_text": null,
+        "edge_percent": null,
+        "price_boosted": null,
+        "rec_size": null,
+        "order": null
+      },
+      {
+        "bet_name": "Under 48",
+        "bet_points": "48",
+        "no_vig_price": null,
+        "price": 162,
+        "sportsbooks": [
+          "bet365"
+        ],
+        "deep_link_map": {
+          "bet365": {
+            "mobile": "com.bet365.bet365NJ://dl/sportsbookredirect",
+            "desktop": "https://www.bet365.com.au/#/AC/B12/C20426855/D19/E20919839/F19/I1/",
+            "urls": {
+              "desktop": {
+                "url": "https://www.bet365.com.au/#/AC/B12/C20426855/D19/E20919839/F19/I1/",
+                "adds_to_slip": false
+              },
+              "ios": {
+                "url": "com.bet365.bet365NJ://dl/sportsbookredirect",
+                "adds_to_slip": false
+              },
+              "android": {
+                "url": "com.bet365.bet365NJ://dl/sportsbookredirect",
+                "adds_to_slip": false
+              }
+            }
+          }
+        },
+        "pinny_no_vig_price": null,
+        "dangerous_text": null,
+        "edge_percent": null,
+        "price_boosted": null,
+        "rec_size": null,
+        "order": null
+      }
+    ],
+    "is_live": false,
+    "in_game_status": null,
+    "period": null,
+    "clock": null,
+    "last_play": null,
+    "home_score": 0,
+    "away_score": 0,
+    "sport": "Football",
+    "league": "NFL",
+    "market": "Total Points",
+    "market_width": null,
+    "percentage": -0.99,
+    "start_date": "2024-10-20T17:00:00Z",
+    "home_team": "Atlanta Falcons",
+    "away_team": "Seattle Seahawks",
+    "timestamp": 1729421593.9725077,
     "status": "unplayed",
     "bet_placed": false,
     "same_market_bet_placed": false,
